@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>حاسبة القرض</title>
+    <link rel="icon" type="image/svg+xml" href="./assets/images/logo.svg" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body class="loan-calculator-page">
+    <main class="loan-calculator-shell">
+      <section class="loan-calculator-card" aria-labelledby="calculator-title">
+        <header class="loan-calculator-header">
+          <a class="calculator-logo" href="./index.html" aria-label="الصفحة الرئيسية">
+            <img src="./assets/images/logo.svg" alt="Commercial Facilities" />
+          </a>
+          <h1 id="calculator-title">حاسبة القرض</h1>
+          <p>اختر نوع القرض وأكمل البيانات لحساب القرض</p>
+        </header>
+
+        <div class="calculator-loan-tabs" role="list" aria-label="أنواع القروض">
+          <button class="calculator-loan-tab" type="button" data-loan-type="cash" role="listitem">
+            <img src="./assets/images/loan/cash-loan.jpg" alt="" />
+            قرض نقدي
+          </button>
+          <button class="calculator-loan-tab" type="button" data-loan-type="car" role="listitem">
+            <img src="./assets/images/loan/auto-loan.jpg" alt="" />
+            قرض سيارات
+          </button>
+          <button class="calculator-loan-tab" type="button" data-loan-type="furniture" role="listitem">
+            <img src="./assets/images/loan/furniture-loan.jpg" alt="" />
+            قرض أثاث
+          </button>
+          <button class="calculator-loan-tab" type="button" data-loan-type="marine" role="listitem">
+            <img src="./assets/images/loan/marine-loan.jpg" alt="" />
+            قرض بحري
+          </button>
+          <button class="calculator-loan-tab" type="button" data-loan-type="electrical" role="listitem">
+            <img src="./assets/images/loan/electrical-loan.jpg" alt="" />
+            قرض أجهزة كهربائية
+          </button>
+          <button class="calculator-loan-tab" type="button" data-loan-type="housing" role="listitem">
+            <img src="./assets/images/loan/housing-loan.jpg" alt="" />
+            قرض إسكاني
+          </button>
+          <button class="calculator-loan-tab" type="button" data-loan-type="education" role="listitem">
+            <img src="./assets/images/loan/educational-loan.jpg" alt="" />
+            قرض تعليمي
+          </button>
+          <button class="calculator-loan-tab" type="button" data-loan-type="commercial" role="listitem">
+            <img src="./assets/images/loan/commercial-loan.jpg" alt="" />
+            قرض شركات
+          </button>
+        </div>
+
+        <div class="calculator-track" aria-hidden="true">
+          <span></span>
+        </div>
+
+        <p class="calculator-step-label">صفحة الحسبة</p>
+
+        <div class="calculator-panels" id="calculatorPanels">
+          <form class="calculator-form" id="loanCalculatorForm">
+            <div class="calculator-field">
+              <label for="loanAmount">المبلغ</label>
+              <input id="loanAmount" type="text" inputmode="numeric" min="1000" max="300000" step="1000" value="" />
+            </div>
+
+            <div class="calculator-field">
+              <label for="loanTypeValue">نوع القرض</label>
+              <input id="loanTypeValue" type="text" readonly value="قرض نقدي" />
+            </div>
+
+            <div class="calculator-field">
+              <label for="loanMonths">المدة</label>
+              <input id="loanMonths" type="text" inputmode="numeric" min="12" max="84" value="" />
+            </div>
+
+            <div class="calculator-field payment-field">
+              <label for="loanPayment">قيمة القسط</label>
+              <input id="loanPayment" type="text" readonly value="0" />
+            </div>
+
+            <button class="calculator-submit" type="submit">احسب</button>
+          </form>
+
+          <section class="calculator-results" aria-live="polite" aria-label="نتائج الحساب" hidden>
+            <h2>حساب التمويل</h2>
+            <div class="result-row">
+              <strong id="resultPrincipal">---</strong>
+              <span>قيمة القرض</span>
+            </div>
+            <div class="result-row">
+              <strong id="resultInterest">---</strong>
+              <span>قيمة الفائدة</span>
+            </div>
+            <div class="result-row">
+              <strong id="resultTotal">---</strong>
+              <span>المبلغ الإجمالي</span>
+            </div>
+            <div class="result-row">
+              <strong id="resultMonths">---</strong>
+              <span>مدة السداد</span>
+            </div>
+            <div class="result-row">
+              <strong id="resultMonthly">---</strong>
+              <span>القسط الشهري</span>
+            </div>
+            <div class="result-row">
+              <strong id="resultRate">4.500</strong>
+              <span>نسبة الفائدة</span>
+            </div>
+            <div class="calculator-actions">
+              <button class="calculator-edit" type="button">تعديل</button>
+              <a class="calculator-continue muted" id="continueLink" href="./step1.html">متابعة</a>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const tabs = document.querySelectorAll(".calculator-loan-tab");
+      const amountInput = document.getElementById("loanAmount");
+      const monthsInput = document.getElementById("loanMonths");
+      const paymentInput = document.getElementById("loanPayment");
+      const calculatorPanels = document.getElementById("calculatorPanels");
+      const continueLink = document.getElementById("continueLink");
+      const editButton = document.querySelector(".calculator-edit");
+      const resultPrincipal = document.getElementById("resultPrincipal");
+      const resultInterest = document.getElementById("resultInterest");
+      const resultTotal = document.getElementById("resultTotal");
+      const resultMonths = document.getElementById("resultMonths");
+      const resultMonthly = document.getElementById("resultMonthly");
+      const resultRate = document.getElementById("resultRate");
+      const interestRate = 0.045;
+
+      function setCalculatorState(isCalculated) {
+        calculatorPanels.classList.toggle("is-calculated", isCalculated);
+        const resultSection = document.querySelector(".calculator-results");
+        if (resultSection) {
+          resultSection.hidden = !isCalculated;
+        }
+      }
+
+      function getSelectedLoan() {
+        const params = new URLSearchParams(window.location.search);
+        return params.get("loan") || localStorage.getItem("selectedLoanType") || "cash";
+      }
+
+      function formatKwd(value, minimumFractionDigits = 0, maximumFractionDigits = 0) {
+        return Number(value).toLocaleString("en-US", {
+          minimumFractionDigits,
+          maximumFractionDigits,
+        });
+      }
+
+      function setSelectedLoan(loanType) {
+        localStorage.setItem("selectedLoanType", loanType);
+        tabs.forEach((tab) => {
+          tab.classList.toggle("is-active", tab.dataset.loanType === loanType);
+        });
+        continueLink.href = loanType === "car" ? "./step1.html?loan=car" : `./step1.html?loan=${encodeURIComponent(loanType)}`;
+      }
+
+      function calculateLoan() {
+        const principal = Math.min(Math.max(Number(amountInput.value) || 0, 1000), 300000);
+        const months = Math.min(Math.max(Number(monthsInput.value) || 0, 12), 84);
+        if (principal <= 0 || months <= 0) return;
+
+        amountInput.value = principal;
+        monthsInput.value = months;
+
+        const monthlyRate = interestRate / 12;
+        const paymentFactor = Math.pow(1 + monthlyRate, months);
+        const monthly = (principal * monthlyRate * paymentFactor) / (paymentFactor - 1);
+        const total = monthly * months;
+        const interestTotal = total - principal;
+
+        paymentInput.value = formatKwd(monthly, 3, 3);
+        resultPrincipal.textContent = formatKwd(principal);
+        resultInterest.textContent = formatKwd(interestTotal, 3, 3);
+        resultTotal.textContent = formatKwd(total, 3, 3);
+        resultMonths.textContent = `${months} شهر`;
+        resultMonthly.textContent = `${formatKwd(monthly, 3, 3)} د.ك`;
+        resultRate.textContent = "4.5%";
+        continueLink.classList.remove("muted");
+        setCalculatorState(true);
+      }
+
+      tabs.forEach((tab) => {
+        tab.addEventListener("click", () => setSelectedLoan(tab.dataset.loanType));
+      });
+
+      editButton.addEventListener("click", () => {
+        setCalculatorState(false);
+        amountInput.focus();
+        amountInput.scrollIntoView({ behavior: "smooth", block: "center" });
+      });
+
+      document.getElementById("loanCalculatorForm").addEventListener("submit", (event) => {
+        event.preventDefault();
+        calculateLoan();
+      });
+
+      setSelectedLoan(getSelectedLoan());
+      amountInput.value = "";
+      monthsInput.value = "";
+      paymentInput.value = "";
+      setCalculatorState(false);
+    </script>
+  </body>
+</html>

