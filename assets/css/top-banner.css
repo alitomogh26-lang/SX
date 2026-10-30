@@ -1,0 +1,72 @@
+.top-banner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  padding: 32px 8px 4px;
+  pointer-events: none;
+}
+
+.top-banner img {
+  display: block;
+  width: min(391px, 100%);
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 367 / 102;
+  object-fit: contain;
+  border-radius: 0 0 10px 10px;
+}
+
+.top-banner + form .form-card {
+  margin-top: 0;
+}
+
+.form-card:nth-child(2) #cardExpdate > div:last-child {
+  width: 72% !important;
+  min-height: 28px !important;
+  height: 30px !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  justify-content: flex-end !important;
+}
+
+#manualExpiryInput {
+  width: 72px;
+  height: 28px;
+  gap: 3px;
+  padding: 0 4px;
+  border-radius: 7px;
+  transform: none;
+}
+
+#manualExpiryInput input {
+  width: 23px;
+  height: 22px;
+  font-size: 12px;
+}
+
+#manualExpiryInput span {
+  font-size: 12px;
+}
+
+#cardExpdate .paymentselect {
+  width: 32px;
+  height: 28px;
+  font-size: 12px;
+}
+
+body.has-top-banner .site-header {
+  position: sticky;
+  top: 8px;
+}
+
+body.has-top-banner main {
+  padding-top: 40px;
+}
+
+body.has-top-banner.page-with-shared-header {
+  padding-top: 0;
+}
